@@ -1,0 +1,507 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Scouting Analytics Pro | Dashboard Integral</title>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/PapaParse/5.4.1/papaparse.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
+    
+    <style>
+        :root {
+            --bg-color: #0f172a; --panel-bg: #1e293b; --primary-color: #38bdf8;
+            --text-main: #f8fafc; --text-muted: #94a3b8; --border-color: #334155;
+            --pitch-bg: #14532d;
+        }
+        /* Ajuste: quitamos el padding del body para que la portada ocupe todo */
+        body { font-family: 'Segoe UI', Roboto, sans-serif; background-color: var(--bg-color); color: var(--text-main); margin: 0; padding: 0; overflow-x: hidden; }
+        
+        /* --- ESTILOS DE LA PANTALLA DE INICIO --- */
+        #landingPage {
+            height: 100vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            background: radial-gradient(circle at center, #1e293b 0%, #0f172a 100%);
+            padding: 20px;
+        }
+        .landing-title { font-size: 4rem; color: var(--primary-color); margin-bottom: 10px; font-weight: 800; letter-spacing: -1px; }
+        .landing-subtitle { font-size: 1.5rem; color: var(--text-main); margin-top: 0; font-weight: 300; max-width: 800px; }
+        .landing-author { margin-top: 40px; color: var(--text-muted); font-size: 1.1rem; line-height: 1.6; }
+        .btn-ingresar {
+            background-color: var(--primary-color); color: #0f172a; font-size: 1.2rem; font-weight: bold;
+            padding: 15px 40px; border: none; border-radius: 50px; cursor: pointer; margin-top: 40px;
+            transition: all 0.3s ease; box-shadow: 0 4px 15px rgba(56, 189, 248, 0.3);
+        }
+        .btn-ingresar:hover { transform: translateY(-3px); box-shadow: 0 6px 20px rgba(56, 189, 248, 0.5); background-color: #7dd3fc; }
+
+        /* --- ESTILOS DEL DASHBOARD ORIGINAL --- */
+        #mainDashboard { padding: 20px; display: none; /* Oculto inicialmente */ }
+        .header { text-align: center; margin-bottom: 20px; }
+        .controls { display: flex; gap: 20px; justify-content: center; margin-bottom: 20px; background: var(--panel-bg); padding: 15px; border-radius: 10px; flex-wrap: wrap;}
+        .dashboard-grid { display: grid; grid-template-columns: 1fr 1.5fr 1fr; gap: 20px; }
+        .panel { background: var(--panel-bg); padding: 20px; border-radius: 10px; border: 1px solid var(--border-color); }
+        .panel-full { grid-column: span 3; background: var(--panel-bg); padding: 20px; border-radius: 10px; border: 1px solid var(--border-color); display: flex; flex-direction: column; align-items: center; }
+        .rating-box { font-size: 3rem; font-weight: bold; text-align: center; padding: 20px; border-radius: 10px; margin-top: 10px; color: #fff; }
+        select, input[type="file"], input[type="text"], input[type="number"] { padding: 8px; border-radius: 5px; border: 1px solid var(--border-color); background: var(--bg-color); color: var(--text-main); font-size: 0.9rem;}
+        .similar-card { background-color: #0f172a; padding: 12px; border-radius: 8px; border: 1px solid #334155; margin-bottom: 10px; }
+        .pitch-container { position: relative; width: 720px; height: 480px; background-color: var(--pitch-bg); border: 2px solid #fff; margin-top: 10px; border-radius: 5px; overflow: hidden; }
+        canvas#pitchCanvas { position: absolute; top: 0; left: 0; }
+        .btn-action { padding: 10px 20px; font-weight: bold; border: none; border-radius: 5px; cursor: pointer; transition: 0.3s; margin-top: 10px; }
+        .btn-action:hover { opacity: 0.8; }
+    </style>
+</head>
+<body>
+
+    <div id="landingPage">
+        <h1 class="landing-title">Scouting Analytics Pro</h1>
+        <h2 class="landing-subtitle">Sistema de Recomendación de Planificación Deportiva Colaborativa Difusa</h2>
+        
+        <div class="landing-author">
+            <strong>Desarrollado por:</strong><br>
+            Luis David Delgado Solórzano<br>
+            Universidad Técnica de Manabí
+        </div>
+
+        <button class="btn-ingresar" onclick="ingresarSistema()">
+            Acceder al Sistema ⚽
+        </button>
+    </div>
+
+    <div id="mainDashboard">
+        <div class="header">
+            <h1 style="color: var(--primary-color); margin-bottom: 5px;">Scouting Analytics Pro</h1>
+            <p style="color: var(--text-muted); margin-top: 0;">Sistema de Recomendación de Planificación Deportiva Colaborativa Difusa</p>
+        </div>
+
+        <div class="controls">
+            <div>
+                <label style="font-size: 0.9rem;">1. Base de Datos (CSV Principal):</label><br>
+                <input type="file" accept=".csv" onchange="cargarEmbeddings(event)">
+                <div id="statusEmbeddings" style="font-size: 0.8rem; color: var(--primary-color); margin-top: 5px;">Esperando archivo 1...</div>
+            </div>
+            <div>
+                <label style="font-size: 0.9rem;">2. Eventos StatsBomb (Opcional):</label><br>
+                <input type="file" accept=".csv" onchange="cargarEventos(event)">
+                <div id="statusEventos" style="font-size: 0.8rem; color: var(--primary-color); margin-top: 5px;">Esperando archivo 2...</div>
+            </div>
+            <div>
+                <label style="font-size: 0.9rem;">3. Seleccionar Jugador Existente:</label><br>
+                <select id="playerSelect" onchange="actualizarDashboardCompleto()">
+                    <option value="">Carga los datos primero...</option>
+                </select>
+            </div>
+        </div>
+
+        <div class="panel-full" style="margin-bottom: 20px; background: #0f172a; border-color: #38bdf8;">
+            <h2 style="margin-top: 0; color: var(--primary-color);">🔍 Buscador de Perfil Óptimo (Scouting Activo)</h2>
+            <p style="color: var(--text-muted); margin-bottom: 15px; text-align: center;">Define las características que busca el cuerpo técnico. El algoritmo evaluará la viabilidad y el rendimiento difuso.</p>
+            
+            <div style="display: flex; gap: 15px; flex-wrap: wrap; justify-content: center; align-items: flex-end;">
+                <div><label style="font-size: 0.8rem; color: #94a3b8;">Posición Buscada:</label><br><input type="text" id="idealPos" placeholder="Ej: Delantero" style="width: 120px;"></div>
+                <div><label style="font-size: 0.8rem; color: #94a3b8;">Edad Máxima:</label><br><input type="number" id="idealEdad" value="25" style="width: 80px;"></div>
+                <div><label style="font-size: 0.8rem; color: #94a3b8;">Presupuesto máx (€M):</label><br><input type="number" id="idealValor" value="50" style="width: 120px;"></div>
+                <div><label style="font-size: 0.8rem; color: #94a3b8;">Goles esperados:</label><br><input type="number" id="idealGoles" value="10" style="width: 80px;"></div>
+                <div><label style="font-size: 0.8rem; color: #94a3b8;">Asist. esperadas:</label><br><input type="number" id="idealAsis" value="5" style="width: 80px;"></div>
+                
+                <button class="btn-action" onclick="buscarJugadorOptimo()" style="background: var(--primary-color); color: #0f172a;">
+                    Descubrir Jugador Óptimo
+                </button>
+                <button id="btnPDF" class="btn-action" onclick="generarPDFScouting()" style="display: none; background: #ef4444; color: #fff;">
+                    📄 Exportar Reporte PDF
+                </button>
+            </div>
+
+            <div id="resultadosIdeales" style="display: flex; gap: 15px; margin-top: 20px; width: 100%; justify-content: center; flex-wrap: wrap;"></div>
+        </div>
+
+        <div class="dashboard-grid">
+            <div class="panel">
+                <h2 id="playerNameDisplay" style="margin-top: 0; color: var(--primary-color);">Perfil del Jugador</h2>
+                <p id="playerPosDisplay" style="color: var(--text-muted);">Edad | Valor | Partidos | Goles | Asist.</p>
+                
+                <div style="margin-top: 30px; text-align: center;">
+                    <h3>Calificación Difusa</h3>
+                    <div id="playerRating" class="rating-box" style="background-color: #334155;">-</div>
+                    <h4 id="playerEtiqueta" style="margin-top: 10px; color: var(--primary-color);">Prod. Ofensiva: -</h4>
+                </div>
+            </div>
+
+            <div class="panel" style="height: 400px;">
+                <h3 style="text-align: center; margin-top: 0;">Perfil Estadístico (Radar)</h3>
+                <canvas id="radarChart"></canvas>
+            </div>
+
+            <div class="panel" style="max-height: 400px; overflow-y: auto;">
+                <h3 style="margin-top: 0;">Recomendaciones (Híbrido)</h3>
+                <p style="font-size: 0.8rem; color: var(--text-muted);">Similitud Coseno + Euclidiana</p>
+                <div id="similarList">
+                    <p style="color: var(--text-muted); font-size: 0.9rem;">Selecciona un jugador...</p>
+                </div>
+            </div>
+
+            <div class="panel-full">
+                <h2 style="margin-top: 0; color: var(--primary-color);">Mapa de Calor (StatsBomb KDE)</h2>
+                <p style="margin: 0; color: var(--text-muted);">Frecuencia espacial de intervenciones (Ataque hacia la derecha ➡️)</p>
+                <div class="pitch-container">
+                    <canvas id="pitchCanvas" width="720" height="480"></canvas>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        // --- NUEVA FUNCIÓN PARA TRANSICIÓN DE PANTALLA ---
+        function ingresarSistema() {
+            document.getElementById('landingPage').style.display = 'none';
+            document.getElementById('mainDashboard').style.display = 'block';
+            // Pequeño ajuste para que el mapa de calor se renderice bien al mostrarse si se necesita
+            window.dispatchEvent(new Event('resize')); 
+        }
+
+        // --- TU CÓDIGO ORIGINAL INTACTO HACIA ABAJO ---
+        let dbJugadores = [];
+        let dbEventos = [];
+        let radarChartInstance = null;
+
+        function evaluarRendimientoDifuso(goles, asistencias, partidos) {
+            let produccion = partidos > 0 ? ((goles + asistencias) / partidos) * 10 : 0;
+            let mu_malo = Math.max(0, Math.min(1, (3 - produccion) / 3)); 
+            let mu_regular = Math.max(0, Math.min((produccion - 2) / 2, 1, (7 - produccion) / 2)); 
+            let mu_bueno = Math.max(0, Math.min((produccion - 5) / 3, 1)); 
+
+            let numerador = (mu_malo * 50) + (mu_regular * 75) + (mu_bueno * 95);
+            let denominador = mu_malo + mu_regular + mu_bueno;
+            let ratingFinal = denominador === 0 ? 50 : numerador / denominador;
+
+            let etiqueta = "Media";
+            if (mu_bueno > mu_regular && mu_bueno >= mu_malo) etiqueta = "Alta";
+            else if (mu_malo > mu_regular && mu_malo >= mu_bueno) etiqueta = "Baja";
+
+            return { rating: Math.round(ratingFinal), etiqueta: etiqueta };
+        }
+
+        function cargarEmbeddings(event) {
+            const file = event.target.files[0];
+            if (!file) return;
+            Papa.parse(file, {
+                header: true, skipEmptyLines: true, 
+                transformHeader: function(h) { return h.trim(); }, 
+                complete: function(results) {
+                    const data = results.data;
+                    dbJugadores = [];
+                    data.forEach(row => {
+                        let vector = [];
+                        for (let key in row) {
+                            if (key.includes("_emb_")) {
+                                let val = row[key] ? String(row[key]).replace(',', '.') : "0";
+                                vector.push(parseFloat(val));
+                            }
+                        }
+                        
+                        let partidos = parseInt(row['Partidos jugados'] || 1); 
+                        let goles = parseInt(row['Goles'] || 0); 
+                        let asis = parseInt(row['Asistencias'] || 0);
+                        let valor = parseInt(row['Valor de mercado'] || 0);
+                        
+                        let fuzzyResult = evaluarRendimientoDifuso(goles, asis, partidos);
+
+                        let statsRadar = [
+                            Math.min((goles / 15) * 100, 100),            
+                            Math.min((asis / 15) * 100, 100),             
+                            Math.min((partidos / 30) * 100, 100),         
+                            fuzzyResult.rating, 
+                            Math.min((valor / 250) * 100, 100),           
+                            80 
+                        ];
+                        
+                        if (row['Nombre']) {
+                            dbJugadores.push({
+                                name: row['Nombre'], age: parseInt(row['Edad'] || 0), value: valor,
+                                goals: goles, assists: asis, matches: partidos,
+                                position: row['Posicion'] || row['Posición'] || "N/A",
+                                club: row['Club'] || row['Club '] || "N/A",
+                                vector: vector.length > 0 ? vector : [0,0,0,0,0,0,0,0],
+                                rating: fuzzyResult.rating, 
+                                etiquetaDifusa: fuzzyResult.etiqueta, stats: statsRadar
+                            });
+                        }
+                    });
+                    
+                    const select = document.getElementById("playerSelect"); 
+                    select.innerHTML = "<option value=''>Selecciona un jugador...</option>";
+                    dbJugadores.forEach(j => { select.innerHTML += `<option value="${j.name}">${j.name}</option>`; });
+                    
+                    document.getElementById("statusEmbeddings").innerText = `✅ ¡${dbJugadores.length} jugadores cargados!`;
+                }
+            });
+        }
+
+        function cargarEventos(event) {
+            const file = event.target.files[0];
+            if (!file) return;
+            Papa.parse(file, {
+                header: true, skipEmptyLines: true,
+                complete: function(results) {
+                    dbEventos = results.data;
+                    document.getElementById("statusEventos").innerText = `✅ ¡${dbEventos.length} eventos de StatsBomb cargados!`;
+                    actualizarDashboardCompleto();
+                }
+            });
+        }
+
+        function actualizarDashboardCompleto() {
+            if (dbJugadores.length === 0) return;
+            const targetName = document.getElementById("playerSelect").value;
+            const targetPlayer = dbJugadores.find(p => p.name === targetName);
+            if (!targetPlayer) return;
+            
+            document.getElementById('playerNameDisplay').innerText = targetPlayer.name;
+            document.getElementById('playerPosDisplay').innerText = `${targetPlayer.position} | ${targetPlayer.age} años | €${targetPlayer.value}M | ${targetPlayer.matches} PJ | ${targetPlayer.goals} G | ${targetPlayer.assists} A`;
+            
+            const ratingEl = document.getElementById('playerRating');
+            ratingEl.innerText = targetPlayer.rating;
+            let colorRating = targetPlayer.etiquetaDifusa === 'Alta' ? '#16a34a' : (targetPlayer.etiquetaDifusa === 'Media' ? '#eab308' : '#b45309');
+            ratingEl.style.backgroundColor = colorRating;
+            document.getElementById('playerEtiqueta').innerText = `Prod. Ofensiva: ${targetPlayer.etiquetaDifusa}`;
+
+            const ctx = document.getElementById('radarChart').getContext('2d');
+            if (radarChartInstance) radarChartInstance.destroy();
+            radarChartInstance = new Chart(ctx, {
+                type: 'radar',
+                data: { 
+                    labels: ['Efec. Goleadora', 'Creación', 'Regularidad (PJ)', 'Rating Difuso', 'Cotización', 'Físico Promedio'], 
+                    datasets: [{ label: targetPlayer.name, data: targetPlayer.stats, backgroundColor: 'rgba(56, 189, 248, 0.4)', borderColor: '#38bdf8', borderWidth: 2, pointBackgroundColor: '#fff', pointBorderColor: '#38bdf8' }] 
+                },
+                options: { responsive: true, maintainAspectRatio: false, scales: { r: { angleLines: { color: 'rgba(255, 255, 255, 0.1)' }, grid: { color: 'rgba(255, 255, 255, 0.1)' }, pointLabels: { color: '#94a3b8', font: {size: 11} }, ticks: { display: false, min: 0, max: 100 } } }, plugins: { legend: { display: false } } }
+            });
+            
+            buscarSimilares();
+            dibujarMapaCalor(targetPlayer.name);
+        }
+
+        function buscarSimilares() {
+            const targetName = document.getElementById("playerSelect").value;
+            const targetPlayer = dbJugadores.find(p => p.name === targetName);
+            if (!targetPlayer) return;
+
+            function cosineSimilarity(vecA, vecB) {
+                let dotProduct = 0, normA = 0, normB = 0;
+                for (let i = 0; i < vecA.length; i++) {
+                    dotProduct += vecA[i] * vecB[i]; normA += Math.pow(vecA[i], 2); normB += Math.pow(vecB[i], 2);
+                }
+                return (normA === 0 || normB === 0) ? 0 : dotProduct / (Math.sqrt(normA) * Math.sqrt(normB));
+            }
+
+            let similares = dbJugadores.map(player => {
+                if (player.name === targetPlayer.name) return null;
+                
+                let scoreContexto = ((cosineSimilarity(targetPlayer.vector, player.vector) + 1) / 2) * 100;
+                let targetGPP = targetPlayer.matches > 0 ? targetPlayer.goals / targetPlayer.matches : 0;
+                let targetAPP = targetPlayer.matches > 0 ? targetPlayer.assists / targetPlayer.matches : 0;
+                let playerGPP = player.matches > 0 ? player.goals / player.matches : 0;
+                let playerAPP = player.matches > 0 ? player.assists / player.matches : 0;
+
+                let scoreRendimiento = Math.max(0, 100 - (Math.abs(targetGPP - playerGPP)*20 + Math.abs(targetAPP - playerAPP)*20 + Math.abs(targetPlayer.rating - player.rating)));
+                let scoreFisico = Math.max(0, 100 - (Math.abs(targetPlayer.age - player.age)*2 + Math.abs(targetPlayer.value - player.value)/2));
+
+                let similitudGlobal = (scoreContexto * 0.30) + (scoreRendimiento * 0.50) + (scoreFisico * 0.20);
+
+                return { name: player.name, similarity: Math.round(similitudGlobal), position: player.position, club: player.club, etiqueta: player.etiquetaDifusa };
+            }).filter(p => p !== null);
+
+            similares.sort((a, b) => b.similarity - a.similarity);
+
+            const list = document.getElementById("similarList"); list.innerHTML = "";
+            similares.slice(0, 3).forEach(s => {
+                let colorEtiq = s.etiqueta === 'Alta' ? '#16a34a' : (s.etiqueta === 'Media' ? '#eab308' : '#b45309');
+                list.innerHTML += `<div class="similar-card">
+                    <div style="display: flex; justify-content: space-between; margin-bottom: 4px;"><strong style="color: #f8fafc;">${s.name}</strong><span style="color: #38bdf8; font-weight: bold;">${s.similarity}% (Híbrido)</span></div>
+                    <div style="font-size: 0.85rem; color: #94a3b8;">${s.position} | ${s.club} <br>Prod. Ofensiva: <span style="color:${colorEtiq}; font-weight:bold;">${s.etiqueta}</span></div>
+                </div>`;
+            });
+        }
+
+        function buscarJugadorOptimo() {
+            if (dbJugadores.length === 0) { alert("Carga primero la base de datos CSV."); return; }
+
+            let posIdeal = document.getElementById("idealPos").value.toLowerCase().trim();
+            let edadIdeal = parseInt(document.getElementById("idealEdad").value) || 99;
+            let valorIdeal = parseInt(document.getElementById("idealValor").value) || 999;
+            let golesIdeal = parseInt(document.getElementById("idealGoles").value) || 0;
+            let asisIdeal = parseInt(document.getElementById("idealAsis").value) || 0;
+
+            let fuzzyIdeal = evaluarRendimientoDifuso(golesIdeal, asisIdeal, 30);
+
+            let recomendaciones = dbJugadores.map(player => {
+                let playerPosLower = player.position.toLowerCase();
+                let scorePosicion = 0;
+                if (posIdeal === "") scorePosicion = 100;
+                else if (playerPosLower.includes(posIdeal)) scorePosicion = 100;
+                else if (posIdeal.includes(playerPosLower.split(' ')[0])) scorePosicion = 50;
+
+                let playerGPP = player.matches > 0 ? player.goals / player.matches : 0;
+                let playerAPP = player.matches > 0 ? player.assists / player.matches : 0;
+                let idealGPP = golesIdeal / 30;
+                let idealAPP = asisIdeal / 30;
+
+                let scoreRendimiento = Math.max(0, 100 - (Math.abs(idealGPP - playerGPP)*20 + Math.abs(idealAPP - playerAPP)*20 + Math.abs(fuzzyIdeal.rating - player.rating)));
+                
+                let scoreViabilidad = 100;
+                if (player.age > edadIdeal) scoreViabilidad -= (player.age - edadIdeal) * 10; 
+                if (player.value > valorIdeal) scoreViabilidad -= (player.value - valorIdeal) * 5; 
+                scoreViabilidad = Math.max(0, scoreViabilidad);
+
+                let similitudGlobal = (scorePosicion * 0.30) + (scoreRendimiento * 0.30) + (scoreViabilidad * 0.40);
+
+                return { name: player.name, similarity: Math.round(similitudGlobal), position: player.position, club: player.club, value: player.value, age: player.age, etiqueta: player.etiquetaDifusa };
+            });
+
+            recomendaciones.sort((a, b) => b.similarity - a.similarity);
+
+            window.ultimasRecomendaciones = recomendaciones.slice(0, 3);
+            
+            const list = document.getElementById("resultadosIdeales"); list.innerHTML = "";
+            recomendaciones.slice(0, 3).forEach((s, index) => {
+                let colorEtiq = s.etiqueta === 'Alta' ? '#16a34a' : (s.etiqueta === 'Media' ? '#eab308' : '#b45309');
+                let corona = index === 0 ? "👑 Opción Óptima" : `Alternativa #${index + 1}`;
+                let borderCol = index === 0 ? '#38bdf8' : '#334155';
+                
+                list.innerHTML += `
+                    <div style="background-color: #1e293b; padding: 15px; border-radius: 8px; border: 2px solid ${borderCol}; width: 260px; box-shadow: 0 4px 6px rgba(0,0,0,0.3);">
+                        <div style="color: var(--primary-color); font-size: 0.85rem; font-weight: bold; margin-bottom: 5px;">${corona}</div>
+                        <div style="display: flex; justify-content: space-between; margin-bottom: 8px;">
+                            <strong style="color: #f8fafc; font-size: 1.1rem;">${s.name}</strong>
+                            <span style="color: #38bdf8; font-weight: bold; background: #0f172a; padding: 2px 6px; border-radius: 4px;">${s.similarity}% Match</span>
+                        </div>
+                        <div style="font-size: 0.9rem; color: #94a3b8; line-height: 1.5;">
+                            📍 ${s.position} <br>
+                            ⏳ ${s.age} años | 💰 €${s.value}M <br>
+                            🛡️ Club: ${s.club} <br>
+                            📈 Prod. Ofensiva: <span style="color:${colorEtiq}; font-weight:bold;">${s.etiqueta}</span>
+                        </div>
+                    </div>
+                `;
+            });
+            document.getElementById("btnPDF").style.display = "block";
+        }
+
+        function generarPDFScouting() {
+            if (typeof window.jspdf === 'undefined') { alert("La librería jsPDF no cargó correctamente."); return; }
+            const { jsPDF } = window.jspdf;
+            const doc = new jsPDF();
+
+            let posIdeal = document.getElementById("idealPos").value || "Cualquier posición";
+            let edadIdeal = document.getElementById("idealEdad").value || "Sin límite";
+            let valorIdeal = document.getElementById("idealValor").value || "Sin límite";
+            let golesIdeal = document.getElementById("idealGoles").value || "0";
+            let asisIdeal = document.getElementById("idealAsis").value || "0";
+
+            doc.setFillColor(15, 23, 42); 
+            doc.rect(0, 0, 210, 32, 'F');
+            doc.setFont("helvetica", "bold"); doc.setFontSize(22); doc.setTextColor(255, 255, 255);
+            doc.text("Reporte Ejecutivo de Scouting Activo", 105, 20, { align: "center" });
+
+            doc.setFont("helvetica", "bold"); doc.setFontSize(14); doc.setTextColor(15, 23, 42);
+            doc.text("Criterios de Búsqueda:", 20, 48);
+            
+            doc.setFont("helvetica", "normal"); doc.setFontSize(11); doc.setTextColor(71, 85, 105);
+            doc.text(`Posicion Objetivo: ${posIdeal}   |   Edad Maxima: ${edadIdeal} anos   |   Presupuesto: EUR ${valorIdeal}M`, 20, 56);
+            doc.text(`Rendimiento Esperado: ${golesIdeal} Goles, ${asisIdeal} Asistencias`, 20, 63);
+
+            doc.setDrawColor(203, 213, 225);
+            doc.line(20, 70, 190, 70);
+
+            if (!window.ultimasRecomendaciones || window.ultimasRecomendaciones.length === 0) {
+                doc.text("No se encontraron recomendaciones.", 20, 85);
+                doc.save("Reporte_Scouting.pdf");
+                return;
+            }
+
+            doc.setFont("helvetica", "bold"); doc.setFontSize(14); doc.setTextColor(15, 23, 42);
+            doc.text("Resultados del Algoritmo Híbrido (KNN + Inferencia Difusa):", 20, 82);
+
+            let yOffset = 92;
+
+            window.ultimasRecomendaciones.forEach((jugador, i) => {
+                doc.setFillColor(248, 250, 252); 
+                doc.setDrawColor(203, 213, 225);
+                doc.roundedRect(20, yOffset, 170, 36, 3, 3, 'FD'); 
+                
+                doc.setFont("helvetica", "bold"); doc.setFontSize(12); doc.setTextColor(15, 23, 42);
+                let titulo = i === 0 ? `OPCION OPTIMA: ${jugador.name}` : `Alternativa #${i}: ${jugador.name}`;
+                doc.text(titulo, 25, yOffset + 10); 
+                
+                doc.setFontSize(12); doc.setTextColor(2, 132, 199); 
+                doc.text(`${jugador.similarity}% Match`, 185, yOffset + 10, { align: "right" }); 
+                
+                doc.setFont("helvetica", "normal"); doc.setFontSize(10); doc.setTextColor(71, 85, 105);
+                doc.text(`Posicion: ${jugador.position}   |   Club: ${jugador.club}`, 25, yOffset + 20);
+                
+                let textRendimiento = `Prod. Ofensiva: ${jugador.etiqueta.toUpperCase()}`;
+                doc.text(`Edad: ${jugador.age} anos   |   Cotizacion: EUR ${jugador.value}M   |   ${textRendimiento}`, 25, yOffset + 28);
+                
+                yOffset += 44; 
+            });
+
+            doc.setFont("helvetica", "italic"); doc.setFontSize(9); doc.setTextColor(148, 163, 184);
+            doc.text("Generado por el Sistema de Recomendacion de Planificacion Deportiva Colaborativa Difusa", 105, 280, { align: "center" });
+            doc.text("Autor: Luis David Delgado Solorzano - Universidad Tecnica de Manabi", 105, 285, { align: "center" });
+
+            doc.save("Reporte_Ejecutivo_Scouting.pdf");
+        }
+
+        function dibujarMapaCalor(playerName) {
+            const canvas = document.getElementById('pitchCanvas');
+            const ctx = canvas.getContext('2d');
+            const w = canvas.width; const h = canvas.height;
+            
+            ctx.clearRect(0, 0, w, h);
+            ctx.strokeStyle = "rgba(255, 255, 255, 0.6)"; ctx.lineWidth = 2;
+            ctx.strokeRect(10, 10, w - 20, h - 20); 
+            ctx.beginPath(); ctx.moveTo(w/2, 10); ctx.lineTo(w/2, h - 10); ctx.stroke(); 
+            ctx.beginPath(); ctx.arc(w/2, h/2, 45, 0, 2*Math.PI); ctx.stroke(); 
+            ctx.strokeRect(10, (h/2) - 100, 80, 200); ctx.strokeRect(w - 90, (h/2) - 100, 80, 200); 
+            ctx.strokeRect(10, (h/2) - 40, 30, 80); ctx.strokeRect(w - 40, (h/2) - 40, 30, 80); 
+
+            if (dbEventos.length === 0) {
+                ctx.fillStyle = "rgba(255, 255, 255, 0.5)"; ctx.font = "16px Arial"; ctx.textAlign = "center";
+                ctx.fillText("Carga el archivo CSV de StatsBomb para ver el mapa de calor.", w/2, h/2);
+                return;
+            }
+
+            function limpiarTexto(str) { return str.normalize("NFD").replace(/[\u0300-\u036f]/g, "").toLowerCase(); }
+            
+            let nameParts = limpiarTexto(playerName).split(' ');
+            let eventosJugador = dbEventos.filter(e => {
+                if (!e.jugador) return false;
+                let eventName = limpiarTexto(e.jugador);
+                return eventName.includes(nameParts[0]) && (nameParts.length === 1 || eventName.includes(nameParts[nameParts.length - 1]));
+            });
+
+            if (eventosJugador.length === 0) {
+                ctx.fillStyle = "rgba(255, 255, 255, 0.8)"; ctx.font = "16px Arial"; ctx.textAlign = "center";
+                ctx.fillText(`No se encontraron eventos en StatsBomb para: ${playerName}`, w/2, h/2);
+                return;
+            }
+
+            const scaleX = (w - 20) / 120; const scaleY = (h - 20) / 80;
+            ctx.globalCompositeOperation = "screen";
+
+            eventosJugador.forEach(ev => {
+                let px = 10 + (parseFloat(ev.x) * scaleX); let py = 10 + (parseFloat(ev.y) * scaleY);
+                if (isNaN(px) || isNaN(py)) return;
+                let gradient = ctx.createRadialGradient(px, py, 0, px, py, 25);
+                gradient.addColorStop(0, 'rgba(255, 215, 0, 0.8)');   
+                gradient.addColorStop(0.4, 'rgba(255, 69, 0, 0.4)');  
+                gradient.addColorStop(1, 'rgba(255, 0, 0, 0)');       
+                ctx.beginPath(); ctx.arc(px, py, 25, 0, 2 * Math.PI); ctx.fillStyle = gradient; ctx.fill();
+            });
+            ctx.globalCompositeOperation = "source-over";
+        }
+    </script>
+</body>
+</html>
