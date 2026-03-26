@@ -91,3 +91,53 @@ The system is composed of four main modules:
 ---
 
 ## 📁 Project Structure
+
+---
+
+## 📚 Research Context
+
+This project was developed as part of a Bachelor's thesis in Statistical Engineering:
+
+**"Sistema de recomendación de planificación deportiva colaborativa difusa"**
+
+The research focuses on integrating machine learning and fuzzy logic for sports analytics and decision support systems.
+
+---
+
+## 🔍 Key Contributions
+
+- Hybrid recommendation system for sports analytics
+- Integration of fuzzy logic with clustering and KNN
+- Interactive dashboard for real-world application
+- Multi-source data fusion (statistical + spatial)
+
+---
+
+## ⚠️ Limitations
+
+- Depends on data quality and availability
+- Limited representation of qualitative factors (psychological, tactical context)
+- Static dataset (no temporal modeling yet)
+
+---
+
+## 🔮 Future Work
+
+- Integration of deep learning models
+- Dynamic player performance analysis (time series)
+- Explainable AI for recommendation transparency
+- Expansion to other sports
+
+---
+
+## 👨‍💻 Author
+
+Luis David Delgado Solorzano  
+Statistical Engineering Student  
+Universidad Técnica de Manabí  
+
+---
+
+## 📄 License
+
+This project is for academic and research purposes.
