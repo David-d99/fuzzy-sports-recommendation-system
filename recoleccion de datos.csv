@@ -1,0 +1,605 @@
+Nombre;Altura;Edad (2018);Valor de mercado;Partidos jugados;Goles;Asistencias;Amarillas;Rojas;Nacionalidad;Club ;Posición
+Mohammad Ibrahim Al Sahlawi;1,79;31;1,000,000;25;16;2;2;0;Arabia Saudita;Al-Nassr;Delantero
+Abdullah Ibrahim Otayf;1,77;25;800;22;0;2;3;0;Arabia Saudita;Al-Hilal;Mediocentro
+Yasir Gharsan Al Shahrani;1,7;26;1,200,000;27;1;3;4;0;Arabia Saudita;Al-Hilal;Lateral
+Ilya Kutepov;1,92;25;3,000,000;28;0;0;5;0;Rusia;Spartak Moscú;Defensa
+Salman Mohammed Al Faraj;1,8;29;1,500,000;26;2;4;4;0;Arabia Saudita;Al-Hilal;Mediocentro
+Salem Mohammed Al Dawsari;1,73;26;2,000,000;28;7;5;3;0;Arabia Saudita;Al-Hilal;Extremo
+Mario Figueira Fernandes;1,89;27;18,000,000;35;2;6;6;0;Rusia/Brasil;CSKA Moscú;Lateral
+Aleksandr Samedov;1,8;33;2,000,000;30;5;7;4;0;Rusia;Spartak Moscú;Extremo
+Yehya Sulaiman Ali Al-Shehri;1,66;30;1,000,000;24;3;4;2;0;Arabia Saudita;Al-Nassr;Mediocentro ofensivo
+Alan Dzagoev;1,79;28;20,000,000;27;5;6;5;0;Rusia;CSKA Moscú;Mediocentro
+Taisir Jabir Al Jassim;1,74;34;1,000,000;23;2;3;3;0;Arabia Saudita;Al-Ahli;Mediocentro
+Sergei Ignashevich;1,85;38;500;30;1;0;6;1;Rusia;CSKA Moscú;Defensa
+Yury Gazinskiy;1,84;28;4,000,000;29;2;3;4;0;Rusia;Krasnodar;Mediocentro
+Mohammed Al Burayk;1,74;25;1,000,000;26;1;3;3;0;Arabia Saudita;Al-Hilal;Lateral
+Aleksandr Golovin;1,8;22;15,000,000;37;7;6;6;0;Rusia;CSKA Moscú;Mediocentro
+Abdullah Ibrahim Al Maiouf;1,87;31;800;28;0;0;2;0;Arabia Saudita;Al-Hilal;Portero
+Omar Ibrahim Othman Hawsawi;1,82;32;900;27;1;0;4;0;Arabia Saudita;Al-Nassr;Defensa
+Igor Akinfeev;1,87;32;8,000,000;45;0;0;2;0;Rusia;CSKA Moscú;Portero
+Roman Zobnin;1,82;24;6,000,000;30;2;4;4;0;Rusia;Spartak Moscú;Mediocentro
+Yuri Zhirkov;1,8;34;1,000,000;25;1;3;3;0;Rusia;Zenit;Lateral
+Fyodor Smolov;1,87;28;12,000,000;30;14;4;4;0;Rusia;Krasnodar;Delantero
+Osama Abdulrezag Hawsawi;1,82;34;900;26;1;0;3;0;Arabia Saudita;Al-Ahli;Defensa
+Denis Cheryshev;1,79;27;6,000,000;22;4;3;2;0;Rusia;Villarreal;Extremo
+Fahad Al Muwallad;1,67;23;1,200,000;24;5;4;2;0;Arabia Saudita;Al-Ittihad;Extremo
+Daler Kuzyaev;1,82;25;3,000,000;28;3;5;4;0;Rusia;Zenit;Mediocentro
+Artem Dzyuba;1,96;29;10,000,000;30;13;6;5;0;Rusia;Arsenal Tula;Delantero
+Hattan Babhir;1,7;26;800;20;2;2;2;0;Arabia Saudita;Al-Ahli;Extremo
+Mohanad Aseri;1,8;31;1,000,000;22;4;2;3;0;Arabia Saudita;Al-Ahli;Delantero
+John Obi Mikel;1,79;31;4,000,000;25;1;2;3;0;Nigeria;Tianjin Teda;Mediocentro
+Mario Mandzukic;1,9;32;18,000,000;42;10;5;4;0;Croacia;Juventus;Delantero
+William Troost-Ekong;1,91;24;2,000,000;28;2;1;4;0;Nigeria;Bursaspor;Defensa
+Odion Ighalo;1,88;29;8,000,000;26;12;3;3;0;Nigeria;Changchun Yatai;Delantero
+Dejan Lovren;1,88;28;20,000,000;36;2;1;6;1;Croacia;Liverpool;Defensa
+Victor Moses;1,77;27;18,000,000;38;8;7;5;0;Nigeria;Chelsea;Extremo
+Ante Rebic;1,85;24;10,000,000;32;9;4;4;0;Croacia;Eintracht Frankfurt;Extremo
+Luka Modric;1,72;32;25,000,000;43;2;8;5;0;Croacia;Real Madrid;Mediocentro
+Ivan Strinic;1,86;30;5,000,000;28;0;2;3;0;Croacia;Sampdoria;Lateral
+Brian Idowu;1,85;26;1,500,000;25;1;1;3;0;Nigeria;Amkar Perm;Lateral
+Wilfred Ndidi;1,83;21;25,000,000;38;1;2;7;0;Nigeria;Leicester City;Mediocentro
+Ivan Rakitic;1,84;30;40,000,000;42;4;6;6;0;Croacia;FC Barcelona;Mediocentro
+Domagoj Vida;1,84;29;6,000,000;35;2;1;7;1;Croacia;Besiktas JK;Defensa
+Sime Vrsaljko;1,83;26;20,000,000;32;0;3;5;0;Croacia;Atlético Madrid;Lateral
+Andrej Kramaric;1,77;26;15,000,000;34;13;5;3;0;Croacia;Hoffenheim;Delantero
+Abdullahi Shehu;1,82;25;1,000,000;28;1;2;4;0;Nigeria;Bursaspor;Defensa
+Francis Uzoho;1,96;19;500;15;0;0;1;0;Nigeria;Deportivo La Coruña;Portero
+Alex Iwobi;1,8;22;8,000,000;30;3;5;3;0;Nigeria;Arsenal;Extremo
+Ivan Perisic;1,86;29;35,000,000;40;11;9;5;0;Croacia;Inter de Milán;Extremo
+Leon Balogun;1,9;29;1,500,000;25;1;0;4;0;Nigeria;Mainz 05;Defensa
+Oghenekaro Etebo;1,76;22;2,500,000;28;5;4;3;0;Nigeria;Las Palmas;Mediocentro
+Danijel Subasic;1,91;33;3,000,000;40;0;0;2;0;Croacia;AS Mónaco;Portero
+Marcelo Brozovic;1,81;25;25,000,000;36;4;6;4;0;Croacia;Inter de Milán;Mediocentro
+Ahmed Musa;1,71;25;6,000,000;28;7;4;2;0;Nigeria;CSKA Moscú;Extremo
+Kelechi Iheanacho;1,85;21;15,000,000;32;8;3;3;0;Nigeria;Leicester City;Delantero
+Mateo Kovacic;1,77;24;30,000,000;32;2;4;3;0;Croacia;Real Madrid;Mediocentro
+Marko Pjaca;1,86;23;10,000,000;20;3;2;2;0;Croacia;Schalke 04 (cedido);Extremo
+Simeon Nwankwo;1,98;26;2,000,000;29;9;2;3;0;Nigeria;Crotone;Delantero
+Andrew Nabbout;1,82;25;1,000,000;24;5;3;2;0;Australia;Urawa Red Diamonds;Delantero
+Trent Sainsbury;1,84;26;1,500,000;25;1;0;3;0;Australia;Grasshoppers;Defensa
+Benjamin Pavard;1,86;22;15,000,000;36;2;4;4;0;Francia;Stuttgart;Defensa
+Aaron Mooy;1,73;27;10,000,000;36;4;6;5;0;Australia;Huddersfield;Mediocentro
+Corentin Tolisso;1,81;23;40,000,000;34;6;4;4;0;Francia;Bayern Múnich;Mediocentro
+Kylian Mbappé;1,78;19;120,000,000;44;21;15;3;0;Francia;PSG;Delantero
+Aziz Behich;1,7;27;1,000,000;30;1;2;3;0;Australia;Bursaspor;Lateral
+Tom Rogic;1,88;25;3,000,000;32;7;6;4;0;Australia;Celtic;Mediocentro ofensivo
+Raphaël Varane;1,91;25;60,000,000;36;2;1;5;0;Francia;Real Madrid;Defensa
+Antoine Griezmann;1,76;27;100,000,000;49;29;13;5;0;Francia;Atlético Madrid;Delantero
+Robbie Kruse;1,79;29;1,500,000;28;4;5;3;0;Australia;VfL Bochum;Extremo
+Hugo Lloris;1,88;31;25,000,000;44;0;0;2;0;Francia;Tottenham;Portero
+Paul Pogba;1,91;25;90,000,000;37;6;10;6;0;Francia;Manchester United;Mediocentro
+Mile Jedinak;1,89;33;2,000,000;30;5;2;6;0;Australia;Aston Villa;Mediocentro defensivo
+Samuel Umtiti;1,82;24;40,000,000;35;1;0;4;0;Francia;FC Barcelona;Defensa
+N’Golo Kanté;1,68;27;60,000,000;36;1;3;3;0;Francia;Chelsea;Mediocentro defensivo
+Mathew Ryan;1,84;26;6,000,000;38;0;0;2;0;Australia;Brighton;Portero
+Mathew Leckie;1,81;27;3,000,000;32;7;6;4;0;Australia;Hertha Berlín;Extremo
+Lucas Hernández;1,83;22;25,000,000;36;1;2;5;0;Francia;Atlético Madrid;Defensa
+Josh Risdon;1,78;25;1,000,000;28;0;2;3;0;Australia;Western Sydney;Lateral
+Ousmane Dembélé;1,78;21;80,000,000;23;4;7;2;0;Francia;FC Barcelona;Extremo
+Mark Milligan;1,8;32;1,000,000;30;2;2;4;0;Australia;Melbourne Victory;Mediocentro
+Tomi Juric;1,89;26;1,500,000;28;8;3;3;0;Australia;Luzern;Delantero
+Nabil Fekir;1,73;24;25,000,000;36;23;8;4;0;Francia;Lyon;Mediocentro ofensivo
+Olivier Giroud;1,92;31;20,000,000;36;13;6;3;0;Francia;Chelsea;Delantero
+Jackson Irvine;1,89;25;2,000,000;34;10;5;4;0;Australia;Hull City;Mediocentro
+Blaise Matuidi;1,8;31;25,000,000;40;5;6;5;0;Francia;Juventus;Mediocentro
+Daniel Arzani;1,71;19;800;20;5;3;2;0;Australia;Melbourne City;Extremo
+Johann Berg Gudmundsson;1,79;27;6,000,000;36;9;8;4;0;Islandia;Burnley;Extremo
+Sergio Agüero;1,73;30;70,000,000;39;30;7;3;0;Argentina;Manchester City;Delantero
+Birkir Bjarnason;1,82;30;3,000,000;32;5;4;3;0;Islandia;Aston Villa;Mediocentro
+Kári Árnason;1,9;35;500;28;2;1;4;0;Islandia;Aberdeen;Defensa
+Marcos Rojo;1,89;28;15,000,000;25;1;1;5;0;Argentina;Manchester United;Defensa
+Ángel Di María;1,8;30;40,000,000;41;12;17;4;0;Argentina;PSG;Extremo
+Gylfi Sigurdsson;1,86;28;35,000,000;38;9;6;5;0;Islandia;Everton;Mediocentro ofensivo
+Alfred Finnbogason;1,84;29;6,000,000;30;12;4;3;0;Islandia;Augsburg;Delantero
+Willy Caballero;1,86;36;1,000,000;15;0;0;1;0;Argentina;Chelsea;Portero
+Nicolás Tagliafico;1,72;25;8,000,000;30;2;3;5;0;Argentina;Ajax;Lateral
+Nicolás Otamendi;1,83;30;30,000,000;45;3;2;7;0;Argentina;Manchester City;Defensa
+Eduardo Salvio;1,78;28;20,000,000;35;10;8;4;0;Argentina;Benfica;Extremo
+Javier Mascherano;1,74;34;5,000,000;28;0;1;4;0;Argentina;Hebei Fortune;Mediocentro defensivo
+Lucas Biglia;1,78;32;10,000,000;30;2;3;5;0;Argentina;AC Milan;Mediocentro
+Maximiliano Meza;1,8;26;6,000,000;32;7;6;3;0;Argentina;Independiente;Mediocentro ofensivo
+Hordur Magnusson;1,85;25;2,000,000;28;2;1;4;0;Islandia;Bristol City;Defensa
+Lionel Messi;1,7;30;180,000,000;54;45;18;3;0;Argentina;FC Barcelona;Delantero
+Hannes Halldorsson;1,94;34;500;30;0;0;1;0;Islandia;Randers FC;Portero
+Ragnar Sigurdsson;1,87;32;1,000,000;25;1;0;3;0;Islandia;Rubin Kazan;Defensa
+Emil Hallfredsson;1,86;34;1,500,000;28;2;2;3;0;Islandia;Udinese;Mediocentro
+Aron Gunnarsson;1,88;29;2,500,000;30;3;3;4;0;Islandia;Cardiff City;Mediocentro
+Birkir Saevarsson;1,85;33;500;28;1;1;3;0;Islandia;Valur;Defensa
+Ever Banega;1,75;29;25,000,000;40;5;8;6;0;Argentina;Sevilla;Mediocentro
+Rurik Gislason;1,84;30;1,000,000;25;3;2;2;0;Islandia;Sandhausen;Extremo
+Cristian Pavón;1,67;22;15,000,000;36;7;11;4;0;Argentina;Boca Juniors;Extremo
+Ari Skulason;1,78;31;1,000,000;28;1;2;3;0;Islandia;Lokeren;Lateral
+Gonzalo Higuaín;1,86;30;60,000,000;50;23;7;5;0;Argentina;Juventus;Delantero
+Björn Sigurdarson;1,87;27;2,000,000;30;10;4;3;0;Islandia;Rostov;Delantero
+Christian Eriksen;1,82;26;80,000,000;48;14;12;4;0;Dinamarca;Tottenham;Mediocentro ofensivo
+Andreas Christensen;1,87;22;25,000,000;40;1;1;4;0;Dinamarca;Chelsea;Defensa
+Christian Cueva;1,69;26;6,000,000;32;8;6;3;0;Perú;São Paulo;Mediocentro ofensivo
+Yussuf Poulsen;1,93;24;12,000,000;36;9;5;4;0;Dinamarca;RB Leipzig;Delantero
+Miguel Trauco;1,75;25;2,000,000;28;1;3;3;0;Perú;Flamengo;Lateral
+Yoshimar Yotún;1,74;28;2,500,000;30;2;4;4;0;Perú;Orlando City;Mediocentro
+Henrik Dalsgaard;1,92;29;2,000,000;32;2;2;4;0;Dinamarca;Brentford;Defensa
+Edison Flores;1,7;24;2,500,000;28;5;4;3;0;Perú;Aalborg BK;Extremo
+Jefferson Farfán;1,78;33;3,000,000;30;10;6;4;0;Perú;Lokomotiv Moscú;Delantero
+Simon Kjær;1,89;29;12,000,000;35;2;1;5;0;Dinamarca;Sevilla;Defensa
+William Kvist;1,85;33;1,000,000;28;1;2;3;0;Dinamarca;Copenhague;Mediocentro
+Nicolai Jørgensen;1,91;27;12,000,000;32;15;6;4;0;Dinamarca;Feyenoord;Delantero
+Renato Tapia;1,85;22;2,500,000;28;2;3;4;0;Perú;Feyenoord;Mediocentro
+Thomas Delaney;1,82;26;15,000,000;34;6;5;5;0;Dinamarca;Werder Bremen;Mediocentro
+André Carrillo;1,82;27;6,000,000;30;5;6;3;0;Perú;Watford;Extremo
+Luis Advíncula;1,8;28;2,500,000;30;2;3;4;0;Perú;Lobos BUAP;Lateral
+Pione Sisto;1,7;23;8,000,000;34;7;7;3;0;Dinamarca;Celta de Vigo;Extremo
+Christian Ramos;1,85;29;1,500,000;28;1;0;3;0;Perú;Veracruz;Defensa
+Alberto Rodríguez;1,82;34;800;25;0;0;2;0;Perú;Universitario;Defensa
+Jens Stryger Larsen;1,85;27;3,000,000;32;2;3;4;0;Dinamarca;Udinese;Lateral
+Pedro Gallese;1,85;28;1,500,000;28;0;0;2;0;Perú;Veracruz;Portero
+Kasper Schmeichel;1,89;31;12,000,000;38;0;0;2;0;Dinamarca;Leicester City;Portero
+Lasse Schöne;1,77;31;4,000,000;34;6;7;3;0;Dinamarca;Ajax;Mediocentro
+Paolo Guerrero;1,85;34;3,000,000;25;9;3;4;0;Perú;Flamengo;Delantero
+Martin Braithwaite;1,77;27;6,000,000;32;9;4;3;0;Dinamarca;Bordeaux;Delantero
+Pedro Aquino;1,75;23;2,000,000;28;3;3;3;0;Perú;León;Mediocentro
+Mathias Jørgensen;1,91;28;5,000,000;32;2;1;4;0;Dinamarca;Huddersfield;Defensa
+Raúl Ruidíaz;1,69;27;3,000,000;32;20;4;3;0;Perú;Monarcas Morelia;Delantero
+Gabriel Jesus;1,75;21;80,000,000;42;17;7;4;0;Brasil;Manchester City;Delantero
+Casemiro;1,85;26;60,000,000;40;7;3;6;0;Brasil;Real Madrid;Mediocentro defensivo
+Philippe Coutinho;1,72;25;120,000,000;43;20;13;5;0;Brasil;FC Barcelona;Mediocentro ofensivo
+Haris Seferovic;1,85;26;8,000,000;34;10;5;4;0;Suiza;Benfica;Delantero
+Marcelo Vieira;1,74;30;50,000,000;40;5;8;6;0;Brasil;Real Madrid;Lateral
+Valon Behrami;1,84;33;2,000,000;30;2;2;5;0;Suiza;Udinese;Mediocentro
+Stephan Lichtsteiner;1,82;34;1,500,000;32;1;3;5;0;Suiza;Juventus;Lateral
+Xherdan Shaqiri;1,69;26;20,000,000;35;8;7;3;0;Suiza;Stoke City;Extremo
+Fabian Schär;1,86;26;6,000,000;32;3;2;4;0;Suiza;Deportivo La Coruña;Defensa
+Manuel Akanji;1,87;22;15,000,000;30;2;1;3;0;Suiza;Basilea/Dortmund;Defensa
+Miranda;1,86;33;10,000,000;35;2;1;4;0;Brasil;Inter de Milán;Defensa
+Steven Zuber;1,82;26;6,000,000;30;6;5;3;0;Suiza;Hoffenheim;Extremo
+Paulinho;1,8;29;40,000,000;45;9;7;4;0;Brasil;FC Barcelona;Mediocentro
+Ricardo Rodríguez;1,8;25;20,000,000;36;3;4;5;0;Suiza;AC Milan;Lateral
+Willian;1,75;29;40,000,000;45;12;10;4;0;Brasil;Chelsea;Extremo
+Granit Xhaka;1,86;25;35,000,000;38;4;6;7;0;Suiza;Arsenal;Mediocentro
+Danilo;1,84;26;25,000,000;32;2;3;4;0;Brasil;Manchester City;Lateral
+Blerim Dzemaili;1,79;32;2,000,000;30;5;4;4;0;Suiza;Bologna;Mediocentro
+Alisson Becker;1,91;25;40,000,000;49;0;0;2;0;Brasil;AS Roma;Portero
+Thiago Silva;1,83;33;15,000,000;35;2;1;5;0;Brasil;PSG;Defensa
+Neymar;1,75;26;180,000,000;30;28;16;4;0;Brasil;PSG;Delantero
+Yann Sommer;1,83;29;12,000,000;38;0;0;2;0;Suiza;Borussia Mönchengladbach;Portero
+Fernandinho;1,79;32;20,000,000;40;5;4;6;0;Brasil;Manchester City;Mediocentro
+Renato Augusto;1,86;30;8,000,000;28;6;5;3;0;Brasil;Beijing Guoan;Mediocentro
+Denis Zakaria;1,91;21;12,000,000;32;3;3;4;0;Suiza;Borussia Mönchengladbach;Mediocentro
+Roberto Firmino;1,81;26;60,000,000;45;15;9;5;0;Brasil;Liverpool;Delantero
+Breel Embolo;1,87;21;10,000,000;28;8;6;3;0;Suiza;Schalke 04;Delantero
+Michael Lang;1,85;27;5,000,000;32;4;5;4;0;Suiza;Basilea;Lateral
+Carlos Vela;1,77;29;10,000,000;35;13;8;3;0;México;Real Sociedad;Extremo
+Héctor Herrera;1,83;28;15,000,000;40;6;7;5;0;México;Porto;Mediocentro
+Mesut Özil;1,8;29;50,000,000;35;5;12;3;0;Alemania;Arsenal;Mediocentro ofensivo
+Thomas Müller;1,85;28;70,000,000;44;15;12;4;0;Alemania;Bayern Múnich;Delantero
+Daniel Gallardo Vasconcelos;1,8;28;0;0;0;0;0;0;México;—;—
+Héctor Moreno;1,82;30;6,000,000;32;2;1;4;0;México;Real Sociedad;Defensa
+Hugo Ayala;1,82;31;2,000,000;28;1;0;3;0;México;Tigres UANL;Defensa
+Timo Werner;1,8;22;60,000,000;40;21;7;3;0;Alemania;RB Leipzig;Delantero
+Guillermo Ochoa;1,85;32;3,000,000;38;0;0;2;0;México;Standard Lieja;Portero
+Andrés Guardado;1,69;31;4,000,000;34;3;6;4;0;México;Real Betis;Mediocentro
+Sami Khedira;1,89;31;20,000,000;35;6;5;5;0;Alemania;Juventus;Mediocentro
+Hirving Lozano;1,75;22;25,000,000;34;17;8;4;0;México;PSV Eindhoven;Extremo
+Joshua Kimmich;1,76;23;45,000,000;47;6;14;5;0;Alemania;Bayern Múnich;Lateral/Mediocentro
+Toni Kroos;1,83;28;80,000,000;42;5;10;4;0;Alemania;Real Madrid;Mediocentro
+Mats Hummels;1,91;29;50,000,000;40;3;2;6;0;Alemania;Bayern Múnich;Defensa
+Javier Hernández;1,75;30;15,000,000;32;8;3;2;0;México;West Ham United;Delantero
+Carlos Salcedo;1,85;24;6,000,000;30;2;1;5;0;México;Eintracht Frankfurt;Defensa
+Jérôme Boateng;1,92;29;40,000,000;36;2;2;6;0;Alemania;Bayern Múnich;Defensa
+Manuel Neuer;1,93;32;45,000,000;26;0;0;1;0;Alemania;Bayern Múnich;Portero
+Miguel Layún;1,79;29;5,000,000;34;3;5;4;0;México;Sevilla;Lateral
+Marvin Plattenhardt;1,81;26;12,000,000;30;2;4;3;0;Alemania;Hertha Berlín;Lateral
+Julian Draxler;1,85;24;40,000,000;40;7;9;4;0;Alemania;PSG;Extremo
+Edson Álvarez;1,87;20;2,500,000;28;2;2;4;0;México;América;Defensa
+Marco Reus;1,8;29;50,000,000;30;14;8;3;0;Alemania;Borussia Dortmund;Extremo
+Raúl Jiménez;1,87;27;10,000,000;30;8;4;3;0;México;Benfica;Delantero
+Rafael Márquez;1,82;39;500;20;1;1;3;0;México;Atlas;Defensa
+Mario Gómez;1,89;32;8,000,000;32;16;3;4;0;Alemania;Stuttgart;Delantero
+Julian Brandt;1,83;22;25,000,000;34;9;7;3;0;Alemania;Bayer Leverkusen;Extremo
+Aleksandar Mitrovi?;1,89;23;12,000,000;34;12;3;5;0;Serbia;Fulham;Delantero
+Nikola Milenkovi?;1,95;20;5,000,000;28;2;1;4;0;Serbia;Fiorentina;Defensa
+Sergej Milinkovi?-Savi?;1,91;23;55,000,000;36;12;9;5;0;Serbia;Lazio;Mediocentro
+Adem Ljaji?;1,82;26;12,000,000;34;10;7;4;0;Serbia;Torino;Mediocentro ofensivo
+Celso Borges;1,87;30;2,000,000;32;6;4;4;0;Costa Rica;Deportivo La Coruña;Mediocentro
+Aleksandar Kolarov;1,87;32;8,000,000;36;5;6;6;0;Serbia;AS Roma;Lateral
+Nemanja Mati?;1,94;29;40,000,000;42;3;5;6;0;Serbia;Manchester United;Mediocentro defensivo
+Bryan Ruiz;1,88;32;2,500,000;30;8;6;3;0;Costa Rica;Sporting CP;Extremo
+Marcos Ureña;1,79;28;1,500,000;28;7;3;2;0;Costa Rica;Los Angeles FC;Delantero
+Branislav Ivanovi?;1,85;34;5,000,000;32;2;2;5;0;Serbia;Zenit;Defensa
+Johnny Acosta;1,77;34;500;28;1;0;3;0;Costa Rica;Rionegro Águilas;Defensa
+Keylor Navas;1,85;31;12,000,000;42;0;0;2;0;Costa Rica;Real Madrid;Portero
+David Guzmán;1,78;28;1,000,000;28;2;2;3;0;Costa Rica;Portland Timbers;Mediocentro
+Dušan Tadi?;1,81;29;15,000,000;38;7;9;4;0;Serbia;Southampton;Extremo
+Johan Venegas;1,79;29;1,000,000;26;5;3;3;0;Costa Rica;Saprissa;Delantero
+Francisco Calvo;1,8;25;1,500,000;28;2;1;4;0;Costa Rica;Minnesota United;Defensa
+Óscar Duarte;1,85;29;2,000,000;28;1;0;3;0;Costa Rica;Espanyol;Defensa
+Giancarlo González;1,87;30;2,000,000;28;1;0;4;0;Costa Rica;Bolonia;Defensa
+Vladimir Stojkovi?;1,95;34;1,000,000;30;0;0;2;0;Serbia;Partizan;Portero
+Cristian Gamboa;1,75;28;1,000,000;26;1;2;3;0;Costa Rica;Celtic;Lateral
+Duško Toši?;1,84;33;2,500,000;30;2;1;4;0;Serbia;Besiktas JK;Defensa
+Luka Milivojevi?;1,86;27;10,000,000;36;7;4;6;0;Serbia;Crystal Palace;Mediocentro
+Christian Bolaños;1,75;34;800;25;4;5;2;0;Costa Rica;Saprissa;Extremo
+Joel Campbell;1,78;25;3,000,000;28;5;4;3;0;Costa Rica;Betis;Extremo
+Filip Kosti?;1,84;25;12,000,000;34;7;9;4;0;Serbia;Hamburgo;Extremo
+Daniel Colindres;1,78;32;800;26;6;5;2;0;Costa Rica;Saprissa;Extremo
+Antonio Rukavina;1,77;34;1,000,000;28;1;2;3;0;Serbia;Villarreal;Lateral
+Aleksandar Prijovi?;1,91;28;5,000,000;30;19;4;3;0;Serbia;PAOK;Delantero
+Armando Cooper;1,77;30;1,000,000;26;2;3;3;0;Panamá;Toronto FC;Mediocentro
+Fidel Escobar;1,83;23;800;25;1;0;3;0;Panamá;New York Red Bulls;Defensa
+Blas Pérez;1,85;37;500;20;6;2;2;0;Panamá;Municipal;Delantero
+Yoel Bárcenas;1,79;24;1,000,000;26;4;3;3;0;Panamá;Cafetaleros;Extremo
+Thibaut Courtois;1,99;26;60,000,000;46;0;0;2;0;Bélgica;Chelsea;Portero
+Yannick Carrasco;1,8;24;30,000,000;35;10;8;4;0;Bélgica;Atlético Madrid;Extremo
+Jan Vertonghen;1,89;31;25,000,000;42;3;2;5;0;Bélgica;Tottenham;Defensa
+Dedryck Boyata;1,88;27;4,000,000;28;2;1;4;0;Bélgica;Celtic;Defensa
+Kevin De Bruyne;1,81;26;150,000,000;52;12;20;5;0;Bélgica;Manchester City;Mediocentro ofensivo
+Thomas Meunier;1,9;26;20,000,000;36;5;6;4;0;Bélgica;PSG;Lateral
+José Luis Rodríguez;1,8;19;500;20;2;2;2;0;Panamá;Gent;Extremo
+Romelu Lukaku;1,91;25;90,000,000;48;27;9;5;0;Bélgica;Manchester United;Delantero
+Aníbal Godoy;1,83;28;1,000,000;28;2;3;3;0;Panamá;San Jose Earthquakes;Mediocentro
+Axel Witsel;1,86;29;25,000,000;40;6;7;4;0;Bélgica;Tianjin Quanjian;Mediocentro
+Dries Mertens;1,69;31;35,000,000;46;22;12;3;0;Bélgica;Napoli;Delantero
+Román Torres;1,87;32;800;26;2;1;4;0;Panamá;Seattle Sounders;Defensa
+Gabriel Gómez;1,85;34;500;25;2;2;3;0;Panamá;Bucaramanga;Mediocentro
+Jaime Penedo;1,84;36;300;24;0;0;1;0;Panamá;Dinamo Bucarest;Portero
+Eden Hazard;1,73;27;150,000,000;52;17;13;4;0;Bélgica;Chelsea;Extremo
+Michael Murillo;1,83;22;1,000,000;26;2;3;3;0;Panamá;New York Red Bulls;Defensa
+Toby Alderweireld;1,87;29;40,000,000;42;3;2;5;0;Bélgica;Tottenham;Defensa
+Erick Davis;1,76;27;700;24;1;2;3;0;Panamá;DAC Dunajská Streda;Lateral
+Ismael Díaz;1,78;21;1,500,000;22;6;3;2;0;Panamá;Deportivo La Coruña;Extremo
+Gabriel Torres;1,8;29;1,000,000;26;8;4;3;0;Panamá;Huachipato;Delantero
+Luis Tejada;1,85;36;400;20;5;2;2;0;Panamá;Sport Boys;Delantero
+Mousa Dembélé;1,85;30;20,000,000;35;3;4;5;0;Bélgica;Tottenham;Mediocentro
+Thorgan Hazard;1,75;25;25,000,000;40;10;8;4;0;Bélgica;Borussia Mönchengladbach;Extremo
+Nacer Chadli;1,85;28;15,000,000;32;6;5;3;0;Bélgica;West Bromwich;Extremo
+Dele Alli;1,88;22;80,000,000;46;14;11;5;0;Inglaterra;Tottenham;Mediocentro ofensivo
+John Stones;1,88;24;40,000,000;38;2;1;5;0;Inglaterra;Manchester City;Defensa
+Wahbi Khazri;1,82;27;8,000,000;34;11;7;4;0;Túnez;Rennes;Extremo
+Kyle Walker;1,83;28;45,000,000;42;2;5;4;0;Inglaterra;Manchester City;Lateral
+Jordan Henderson;1,82;28;35,000,000;40;2;6;5;0;Inglaterra;Liverpool;Mediocentro
+Anice Badri;1,78;27;2,000,000;28;9;5;3;0;Túnez;Espérance Tunis;Extremo
+Harry Maguire;1,94;25;25,000,000;38;3;2;6;0;Inglaterra;Leicester City;Defensa
+Ashley Young;1,75;32;5,000,000;34;3;6;4;0;Inglaterra;Manchester United;Extremo/Lateral
+Fakhreddine Ben Youssef;1,85;26;1,500,000;28;7;4;3;0;Túnez;Al-Ettifaq;Delantero
+Naim Sliti;1,75;25;2,000,000;30;6;5;3;0;Túnez;Dijon;Extremo
+Kieran Trippier;1,78;27;15,000,000;36;1;7;4;0;Inglaterra;Tottenham;Lateral
+Jesse Lingard;1,75;25;25,000,000;36;13;6;3;0;Inglaterra;Manchester United;Extremo
+Mouez Hassen;1,85;23;1,000,000;20;0;0;1;0;Túnez;Châteauroux;Portero
+Yassine Meriah;1,86;24;2,000,000;28;2;1;4;0;Túnez;Sfaxien;Defensa
+Ali Maâloul;1,75;28;1,500,000;28;3;4;3;0;Túnez;Al Ahly;Lateral
+Syam Ben Youssef;1,88;29;1,500,000;28;2;1;4;0;Túnez;Kasimpasa;Defensa
+Dylan Bronn;1,85;22;2,000,000;28;2;2;3;0;Túnez;Gent;Defensa
+Ellyes Skhiri;1,85;23;3,000,000;32;4;5;4;0;Túnez;Montpellier;Mediocentro
+Harry Kane;1,88;24;150,000,000;48;41;7;5;0;Inglaterra;Tottenham;Delantero
+Ferjani Sassi;1,86;26;2,000,000;28;3;4;3;0;Túnez;Al-Nassr;Mediocentro
+Raheem Sterling;1,7;23;90,000,000;46;23;17;4;0;Inglaterra;Manchester City;Extremo
+Jordan Pickford;1,85;24;25,000,000;38;0;0;2;0;Inglaterra;Everton;Portero
+Farouk Ben Mustapha;1,9;28;1,000,000;25;0;0;1;0;Túnez;Al Shabab;Portero
+Marcus Rashford;1,8;20;65,000,000;45;13;9;3;0;Inglaterra;Manchester United;Delantero
+Mohamed Amine Ben Amor;1,8;26;1,500,000;28;2;3;3;0;Túnez;Étoile du Sahel;Mediocentro
+Ruben Loftus-Cheek;1,91;22;20,000,000;32;5;6;3;0;Inglaterra;Chelsea;Mediocentro
+Saber Khalifa;1,85;31;1,000,000;25;6;3;3;0;Túnez;Club Africain;Delantero
+Jae-Sung Lee;1,8;25;1,500,000;30;7;6;3;0;Corea del Sur;Jeonbuk Hyundai;Mediocentro ofensivo
+Young-Gwon Kim;1,86;28;1,000,000;28;2;1;4;0;Corea del Sur;Guangzhou R&F;Defensa
+Shin-Wook Kim;1,96;30;1,500,000;28;12;4;3;0;Corea del Sur;Jeonbuk Hyundai;Delantero
+Ludwig Augustinsson;1,81;24;6,000,000;32;2;5;4;0;Suecia;Werder Bremen;Lateral
+Hee-Chan Hwang;1,77;22;3,000,000;28;9;6;3;0;Corea del Sur;Red Bull Salzburg;Delantero
+Andreas Granqvist;1,89;33;2,000,000;30;3;2;5;0;Suecia;Krasnodar;Defensa
+Ola Toivonen;1,92;31;2,500,000;30;8;5;4;0;Suecia;Toulouse;Delantero
+Ki Sung-Yueng;1,89;29;5,000,000;34;3;4;4;0;Corea del Sur;Swansea City;Mediocentro
+Yong Lee;1,8;29;1,000,000;28;2;2;3;0;Corea del Sur;Jeonnam Dragons;Defensa
+Emil Forsberg;1,79;26;25,000,000;34;7;8;4;0;Suecia;RB Leipzig;Extremo
+Hyun-Soo Jang;1,87;26;1,500,000;28;2;1;3;0;Corea del Sur;FC Tokyo;Defensa
+Marcus Berg;1,84;31;4,000,000;32;20;6;3;0;Suecia;Al Ain;Delantero
+Jo Hyeon-Woo;1,89;26;1,000,000;28;0;0;2;0;Corea del Sur;Daegu FC;Portero
+Albin Ekdal;1,86;28;4,000,000;30;3;3;4;0;Suecia;Hamburgo;Mediocentro
+Sebastian Larsson;1,78;33;2,000,000;32;4;6;4;0;Suecia;Hull City;Mediocentro
+Son Heung-Min;1,83;25;50,000,000;47;18;9;4;0;Corea del Sur;Tottenham;Extremo
+Mikael Lustig;1,89;31;2,000,000;32;2;3;4;0;Suecia;Celtic;Defensa
+Ja-Cheol Koo;1,82;29;3,000,000;30;6;5;3;0;Corea del Sur;Augsburg;Mediocentro
+Pontus Jansson;1,94;27;5,000,000;32;2;1;5;0;Suecia;Leeds United;Defensa
+Robin Olsen;1,96;28;4,000,000;34;0;0;2;0;Suecia;Copenhague;Portero
+Viktor Claesson;1,83;26;8,000,000;34;10;7;4;0;Suecia;Krasnodar;Extremo
+Joo-Ho Park;1,82;31;1,000,000;25;1;2;3;0;Corea del Sur;Borussia Dortmund;Lateral
+Min-Woo Kim;1,74;28;800;26;2;3;3;0;Corea del Sur;Sangju Sangmu;Lateral
+Woo-Young Jung;1,79;28;1,500,000;28;3;4;3;0;Corea del Sur;Vissel Kobe;Mediocentro
+Oscar Hiljemark;1,82;26;4,000,000;32;5;6;4;0;Suecia;Genoa;Mediocentro
+Seung-Woo Lee;1,73;20;1,500,000;22;4;3;2;0;Corea del Sur;Hellas Verona;Extremo
+Isaac Kiese Thelin;1,89;25;3,000,000;30;12;4;3;0;Suecia;Anderlecht;Delantero
+Gustav Svensson;1,85;31;2,000,000;30;2;3;4;0;Suecia;Seattle Sounders;Mediocentro
+M’Baye Niang;1,84;23;10,000,000;32;9;5;4;0;Senegal;Torino;Delantero
+Kalidou Koulibaly;1,87;27;60,000,000;45;5;2;6;0;Senegal;Napoli;Defensa
+Thiago Cionek;1,84;32;1,500,000;28;1;1;4;0;Polonia;SPAL;Defensa
+Piotr Zieli?ski;1,77;24;30,000,000;40;7;8;4;0;Polonia;Napoli;Mediocentro
+Sadio Mané;1,75;26;80,000,000;44;20;9;5;0;Senegal;Liverpool;Extremo
+Mame Biram Diouf;1,85;30;3,000,000;32;8;4;3;0;Senegal;Stoke City;Delantero
+Micha? Pazdan;1,81;30;2,000,000;28;1;0;4;0;Polonia;Legia Varsovia;Defensa
+Grzegorz Krychowiak;1,86;28;20,000,000;36;4;5;5;0;Polonia;West Bromwich;Mediocentro
+Maciej Rybus;1,73;28;3,000,000;30;2;4;3;0;Polonia;Lokomotiv Moscú;Lateral
+Idrissa Gueye;1,74;28;25,000,000;38;2;4;6;0;Senegal;Everton;Mediocentro
+Youssouf Sabaly;1,74;25;6,000,000;32;2;3;4;0;Senegal;Bordeaux;Lateral
+Jakub B?aszczykowski;1,75;32;4,000,000;28;3;5;3;0;Polonia;Wolfsburgo;Extremo
+?ukasz Piszczek;1,84;33;5,000,000;30;2;3;4;0;Polonia;Borussia Dortmund;Lateral
+Kamil Grosicki;1,8;29;4,000,000;34;7;8;3;0;Polonia;Hull City;Extremo
+Robert Lewandowski;1,85;29;90,000,000;48;41;7;5;0;Polonia;Bayern Múnich;Delantero
+Ismaila Sarr;1,85;20;15,000,000;32;6;5;3;0;Senegal;Rennes;Extremo
+Moussa Wagué;1,74;19;2,000,000;26;2;3;3;0;Senegal;Eupen;Lateral
+Salif Sané;1,96;27;12,000,000;34;3;2;5;0;Senegal;Hannover 96;Defensa
+Alfred N’Diaye;1,87;28;4,000,000;32;5;4;4;0;Senegal;Wolverhampton;Mediocentro
+Arkadiusz Milik;1,86;24;30,000,000;28;17;5;3;0;Polonia;Napoli;Delantero
+Wojciech Szcz?sny;1,95;28;25,000,000;35;0;0;2;0;Polonia;Juventus;Portero
+Khadim N’Diaye;1,85;33;500;25;0;0;1;0;Senegal;Horoya AC;Portero
+Jan Bednarek;1,89;22;5,000,000;25;2;1;3;0;Polonia;Southampton;Defensa
+Cheikh N’Doye;1,92;32;2,000,000;30;4;3;4;0;Senegal;Birmingham City;Mediocentro
+Dawid Kownacki;1,85;21;4,000,000;28;10;5;3;0;Polonia;Sampdoria;Delantero
+Moussa Konaté;1,8;25;3,000,000;30;12;4;3;0;Senegal;Amiens;Delantero
+Bartosz Bereszy?ski;1,83;25;4,000,000;30;2;3;4;0;Polonia;Sampdoria;Lateral
+Cheikhou Kouyaté;1,89;28;12,000,000;34;3;4;5;0;Senegal;West Ham United;Mediocentro
+Abdallah El Said;1,78;32;1,500,000;28;6;7;3;0;Egipto;Al Ahly;Mediocentro ofensivo
+Ahmed Hegazy;1,94;27;5,000,000;34;2;1;4;0;Egipto;West Bromwich;Defensa
+Ahmed Fathy;1,75;33;1,000,000;28;1;2;3;0;Egipto;Al Ahly;Lateral
+Mohamed Elneny;1,8;25;10,000,000;36;2;4;4;0;Egipto;Arsenal;Mediocentro
+Mohamed Salah;1,75;26;150,000,000;52;44;14;4;0;Egipto;Liverpool;Extremo
+Ali Gabr;1,88;29;1,000,000;28;1;0;3;0;Egipto;West Bromwich;Defensa
+Mohamed Abdel-Shafy;1,75;32;800;26;1;2;3;0;Egipto;Al Fateh;Lateral
+Mahmoud Hassan (Trezeguet);1,8;23;7,000,000;34;13;7;4;0;Egipto;Kasimpasa;Extremo
+Marwan Mohsen;1,85;29;1,000,000;25;7;3;2;0;Egipto;Al Ahly;Delantero
+Tarek Hamed;1,75;29;1,500,000;28;2;2;4;0;Egipto;Zamalek;Mediocentro
+Mohamed El-Shenawy;1,91;29;1,500,000;28;0;0;2;0;Egipto;Al Ahly;Portero
+Amr Warda;1,8;24;2,000,000;28;6;5;3;0;Egipto;Atromitos;Extremo
+Ramadan Sobhi;1,83;21;7,000,000;28;3;4;3;0;Egipto;Stoke City;Extremo
+Mahmoud Kahraba;1,82;24;2,500,000;28;8;5;3;0;Egipto;Al-Ittihad;Extremo
+Fedor Kudryashov;1,87;31;2,000,000;30;1;1;4;0;Rusia;Rubin Kazan;Defensa
+Shinji Kagawa;1,75;29;12,000,000;32;8;7;3;0;Japón;Borussia Dortmund;Mediocentro ofensivo
+Makoto Hasebe;1,8;34;1,500,000;30;1;2;4;0;Japón;Eintracht Frankfurt;Mediocentro defensivo
+Maya Yoshida;1,89;29;6,000,000;32;2;1;4;0;Japón;Southampton;Defensa
+Radamel Falcao;1,77;32;15,000,000;36;24;5;3;0;Colombia;AS Mónaco;Delantero
+Yuya Osako;1,82;28;5,000,000;32;12;6;3;0;Japón;Colonia;Delantero
+Óscar Murillo;1,84;30;2,000,000;28;1;0;3;0;Colombia;Pachuca;Defensa
+José Izquierdo;1,71;25;15,000,000;34;7;6;3;0;Colombia;Brighton;Extremo
+Genki Haraguchi;1,78;27;3,000,000;30;6;5;3;0;Japón;Fortuna Düsseldorf;Extremo
+Johan Mojica;1,85;25;4,000,000;28;2;3;4;0;Colombia;Girona;Lateral
+Hiroki Sakai;1,85;28;5,000,000;34;2;4;4;0;Japón;Marsella;Lateral
+Gaku Shibasaki;1,75;26;2,500,000;30;5;6;3;0;Japón;Getafe;Mediocentro
+Jefferson Lerma;1,79;23;8,000,000;34;3;4;6;0;Colombia;Levante;Mediocentro
+Carlos Sánchez;1,82;32;2,000,000;28;2;2;4;0;Colombia;Espanyol;Mediocentro defensivo
+Santiago Arias;1,77;26;12,000,000;36;2;5;4;0;Colombia;PSV Eindhoven;Lateral
+Juan Cuadrado;1,76;30;35,000,000;40;8;10;4;0;Colombia;Juventus;Extremo
+Juan Quintero;1,69;25;4,000,000;28;7;6;3;0;Colombia;Independiente Medellín;Mediocentro ofensivo
+Takashi Inui;1,69;30;6,000,000;34;6;7;3;0;Japón;Eibar;Extremo
+Dávinson Sánchez;1,87;22;35,000,000;38;2;1;5;0;Colombia;Tottenham;Defensa
+David Ospina;1,83;29;5,000,000;34;0;0;2;0;Colombia;Arsenal;Portero
+Gen Shoji;1,82;25;1,500,000;28;2;1;3;0;Japón;Kashima Antlers;Defensa
+Yuto Nagatomo;1,7;31;2,000,000;32;1;3;4;0;Japón;Galatasaray;Lateral
+Eiji Kawashima;1,85;35;500;28;0;0;1;0;Japón;Metz;Portero
+Wilmar Barrios;1,78;24;6,000,000;32;3;4;4;0;Colombia;Boca Juniors;Mediocentro defensivo
+James Rodríguez;1,8;26;80,000,000;39;15;12;4;0;Colombia;Bayern Múnich;Mediocentro ofensivo
+Carlos Bacca;1,78;31;12,000,000;36;15;6;4;0;Colombia;Villarreal;Delantero
+Keisuke Honda;1,82;32;2,500,000;28;7;5;3;0;Japón;Pachuca;Mediocentro ofensivo
+Hotaru Yamaguchi;1,73;27;1,500,000;28;3;3;3;0;Japón;Cerezo Osaka;Mediocentro
+Shinji Okazaki;1,74;32;4,000,000;30;7;4;3;0;Japón;Leicester City;Delantero
+João Moutinho;1,7;31;15,000,000;40;4;8;4;0;Portugal;AS Mónaco;Mediocentro
+Khalid Boutaib;1,9;31;2,000,000;30;17;4;3;0;Marruecos;Yeni Malatyaspor;Delantero
+Mbark Boussoufa;1,67;33;1,500,000;28;4;6;3;0;Marruecos;Al Jazira;Mediocentro ofensivo
+Manuel da Costa;1,87;32;1,500,000;28;2;1;4;0;Marruecos;Basaksehir;Defensa
+Hakim Ziyech;1,81;25;25,000,000;40;17;10;5;0;Marruecos;Ajax;Mediocentro ofensivo
+Achraf Hakimi;1,81;19;5,000,000;28;2;4;3;0;Marruecos;Real Madrid;Lateral
+Gonçalo Guedes;1,79;21;40,000,000;38;7;9;4;0;Portugal;Valencia;Extremo
+Younès Belhanda;1,8;28;8,000,000;34;6;7;4;0;Marruecos;Galatasaray;Mediocentro ofensivo
+Pepe (Kléper Laveran);1,88;35;5,000,000;30;2;1;5;0;Portugal;Besiktas;Defensa
+Medhi Benatia;1,9;31;15,000,000;32;3;2;5;0;Marruecos;Juventus;Defensa
+Cristiano Ronaldo;1,87;33;100,000,000;44;44;8;4;0;Portugal;Real Madrid;Delantero
+Nordin Amrabat;1,79;31;3,000,000;30;5;6;3;0;Marruecos;Leganés;Extremo
+William Carvalho;1,87;26;25,000,000;36;3;5;4;0;Portugal;Sporting CP;Mediocentro defensivo
+Cédric Soares;1,72;26;15,000,000;34;2;4;3;0;Portugal;Southampton;Lateral
+Bernardo Silva;1,73;23;50,000,000;45;13;14;4;0;Portugal;Manchester City;Extremo
+Rui Patrício;1,9;30;20,000,000;38;0;0;2;0;Portugal;Sporting CP;Portero
+Nabil Dirar;1,86;32;2,000,000;28;3;4;3;0;Marruecos;Fenerbahçe;Extremo
+João Mário;1,79;25;25,000,000;34;5;6;4;0;Portugal;West Ham United;Mediocentro
+Karim El Ahmadi;1,8;33;2,000,000;30;3;4;3;0;Marruecos;Feyenoord;Mediocentro
+Munir Mohamedi;1,9;29;1,000,000;28;0;0;2;0;Marruecos;Numancia;Portero
+Raphaël Guerreiro;1,7;24;25,000,000;32;5;7;4;0;Portugal;Borussia Dortmund;Lateral
+José Fonte;1,87;34;2,000,000;28;1;0;4;0;Portugal;West Ham United;Defensa
+Gelson Martins;1,73;23;30,000,000;40;13;12;4;0;Portugal;Sporting CP;Extremo
+Bruno Fernandes;1,79;23;25,000,000;40;16;8;5;0;Portugal;Sporting CP;Mediocentro ofensivo
+Ayoub El Kaabi;1,82;24;2,000,000;28;12;4;3;0;Marruecos;RS Berkane;Delantero
+Mehdi Carcela;1,76;29;2,500,000;28;6;5;3;0;Marruecos;Standard Lieja;Extremo
+Fayçal Fajr;1,78;29;3,000,000;30;4;6;4;0;Marruecos;Getafe;Mediocentro
+Adrien Silva;1,75;29;15,000,000;32;3;4;4;0;Portugal;Leicester City;Mediocentro
+Diego Costa;1,86;29;60,000,000;38;22;7;6;0;España;Atlético Madrid;Delantero
+Andrés Iniesta;1,7;34;10,000,000;35;4;7;3;0;España;FC Barcelona;Mediocentro
+Sergio Busquets;1,89;29;60,000,000;42;2;5;6;0;España;FC Barcelona;Mediocentro defensivo
+David Silva;1,7;32;40,000,000;40;10;12;4;0;España;Manchester City;Mediocentro ofensivo
+Vahid Amiri;1,79;30;1,500,000;28;4;5;3;0;Irán;Persepolis;Extremo
+Sergio Ramos;1,84;32;40,000,000;42;6;2;8;1;España;Real Madrid;Defensa
+Omid Ebrahimi;1,75;31;1,500,000;28;3;3;3;0;Irán;Esteghlal;Mediocentro
+Jordi Alba;1,7;29;50,000,000;40;3;8;5;0;España;FC Barcelona;Lateral
+Gerard Piqué;1,94;31;40,000,000;38;4;2;6;0;España;FC Barcelona;Defensa
+Dani Carvajal;1,73;26;50,000,000;36;2;6;5;0;España;Real Madrid;Lateral
+Isco;1,76;26;60,000,000;40;9;9;4;0;España;Real Madrid;Mediocentro ofensivo
+Lucas Vázquez;1,73;27;25,000,000;38;6;8;4;0;España;Real Madrid;Extremo
+Karim Ansarifard;1,87;28;2,500,000;30;17;4;3;0;Irán;Olympiacos;Delantero
+Saeid Ezatolahi;1,9;21;1,500,000;26;2;2;3;0;Irán;Amkar Perm;Mediocentro
+Sardar Azmoun;1,86;23;8,000,000;32;16;6;3;0;Irán;Rubin Kazan;Delantero
+Morteza Pouraliganji;1,85;26;1,500,000;28;2;1;4;0;Irán;Al Sadd;Defensa
+Ramin Rezaeian;1,85;28;1,500,000;28;3;3;3;0;Irán;KV Oostende;Lateral
+Mehdi Taremi;1,87;25;2,000,000;28;14;5;3;0;Irán;Al Gharafa;Delantero
+Majid Hosseini;1,8;22;1,000,000;25;1;0;3;0;Irán;Esteghlal;Defensa
+Alireza Beiranvand;1,94;25;1,500,000;28;0;0;2;0;Irán;Persepolis;Portero
+Ehsan Hajsafi;1,78;28;2,000,000;30;3;4;4;0;Irán;Olympiacos;Lateral
+David de Gea;1,92;27;70,000,000;45;0;0;2;0;España;Manchester United;Portero
+Koke (Jorge Resurrección);1,76;26;60,000,000;45;5;10;4;0;España;Atlético Madrid;Mediocentro
+Milad Mohammadi;1,78;24;1,500,000;28;2;3;3;0;Irán;Akhmat Grozny;Lateral
+Alireza Jahanbakhsh;1,8;24;12,000,000;40;21;12;4;0;Irán;AZ Alkmaar;Extremo
+Marco Asensio;1,82;22;80,000,000;40;11;10;4;0;España;Real Madrid;Extremo
+Saman Ghoddos;1,8;24;3,000,000;30;10;7;3;0;Irán;Östersunds FK;Extremo
+Rodrigo Moreno;1,82;27;40,000,000;38;19;7;4;0;España;Valencia;Delantero
+Luis Suárez;1,82;31;90,000,000;51;31;15;6;0;Uruguay;FC Barcelona;Delantero
+Fernando Muslera;1,9;31;10,000,000;40;0;0;2;0;Uruguay;Galatasaray;Portero
+José Giménez;1,85;23;35,000,000;36;3;1;5;0;Uruguay;Atlético Madrid;Defensa
+Rodrigo Bentancur;1,87;20;15,000,000;30;2;4;4;0;Uruguay;Juventus;Mediocentro
+Matías Vecino;1,87;26;20,000,000;36;4;5;5;0;Uruguay;Inter de Milán;Mediocentro
+José María Cáceres;1,8;31;2,000,000;28;2;1;4;0;Uruguay;Lazio;Defensa
+Diego Godín;1,87;32;25,000,000;42;3;1;6;0;Uruguay;Atlético Madrid;Defensa
+Guillermo Varela;1,74;25;1,500,000;26;1;2;3;0;Uruguay;Peñarol;Lateral
+Cristian Rodríguez;1,78;32;1,000,000;25;5;3;3;0;Uruguay;Peñarol;Extremo
+Mohammed Al Owais;1,85;26;1,000,000;28;0;0;2;0;Arabia Saudita;Al Ahli;Portero
+Carlos Sánchez;1,82;33;2,000,000;28;2;2;4;0;Uruguay;Monterrey;Mediocentro
+Edinson Cavani;1,84;31;60,000,000;48;40;8;5;0;Uruguay;PSG;Delantero
+Ali Al-Bulayhi;1,85;28;800;26;1;0;3;0;Arabia Saudita;Al Hilal;Defensa
+Hussain Al-Mogahwi;1,78;30;1,000,000;28;3;4;3;0;Arabia Saudita;Al Ahli;Mediocentro
+Diego Laxalt;1,78;25;15,000,000;36;4;6;4;0;Uruguay;Genoa;Lateral
+Lucas Torreira;1,68;22;25,000,000;36;4;5;5;0;Uruguay;Sampdoria;Mediocentro
+Mohammed Kanno;1,87;23;1,500,000;28;3;3;3;0;Arabia Saudita;Al Hilal;Mediocentro
+Nahitan Nández;1,75;22;8,000,000;32;5;6;4;0;Uruguay;Boca Juniors;Mediocentro
+Marcos Acuña;1,72;26;15,000,000;36;6;8;4;0;Argentina;Sporting CP;Extremo
+Gabriel Mercado;1,81;31;6,000,000;32;3;2;4;0;Argentina;Sevilla;Defensa
+Enzo Pérez;1,77;32;4,000,000;30;2;4;4;0;Argentina;River Plate;Mediocentro
+Paulo Dybala;1,77;24;100,000,000;45;26;7;4;0;Argentina;Juventus;Delantero
+Vedran ?orluka;1,92;32;3,000,000;30;1;1;4;0;Croacia;Lokomotiv Moscú;Defensa
+Anderson Santamaría;1,85;26;1,500,000;28;2;1;3;0;Perú;Puebla;Defensa
+Steven N’Zonzi;1,96;29;30,000,000;40;4;5;5;0;Francia;Sevilla;Mediocentro
+Andreas Cornelius;1,93;25;6,000,000;32;12;4;3;0;Dinamarca;Atalanta;Delantero
+Bryan Oviedo;1,72;28;2,000,000;28;1;3;3;0;Costa Rica;Sunderland;Lateral
+Fágner;1,68;28;3,000,000;30;2;4;4;0;Brasil;Corinthians;Lateral
+Douglas Costa;1,7;27;45,000,000;40;7;12;4;0;Brasil;Juventus;Extremo
+Yeltsin Tejeda;1,79;26;1,000,000;28;2;3;3;0;Costa Rica;Lausanne-Sport;Mediocentro
+Jón Dadi Böðvarsson;1,9;26;2,500,000;30;10;4;3;0;Islandia;Reading;Delantero
+Kenneth Omeruo;1,85;24;2,000,000;28;2;1;4;0;Nigeria;Kasimpasa;Defensa
+Tyronne Ebuehi;1,87;22;1,500,000;26;1;2;3;0;Nigeria;ADO Den Haag;Lateral
+Sverrir Ingason;1,88;24;2,000,000;28;2;1;4;0;Islandia;Rostov;Defensa
+Mario Gavranovi?;1,75;28;3,000,000;30;15;5;3;0;Suiza;Dinamo Zagreb;Delantero
+Nemanja Radonji?;1,85;22;3,000,000;28;7;5;3;0;Serbia;Estrella Roja;Extremo
+Antonio Rüdiger;1,9;25;35,000,000;36;3;3;5;0;Alemania;Chelsea;Defensa
+Jonas Hector;1,85;28;25,000,000;34;2;5;4;0;Alemania;Colonia;Lateral
+Sebastian Rudy;1,8;28;15,000,000;34;3;6;4;0;Alemania;Bayern Múnich;Mediocentro
+Victor Lindelöf;1,87;23;25,000,000;34;2;2;4;0;Suecia;Manchester United;Defensa
+?lkay Gündo?an;1,8;27;40,000,000;36;6;7;4;0;Alemania;Manchester City;Mediocentro
+Jimmy Durmaz;1,8;29;2,500,000;30;6;5;3;0;Suecia;Toulouse;Extremo
+John Guidetti;1,85;26;4,000,000;30;9;4;3;0;Suecia;Alavés;Delantero
+Saif-Eddine Khaoui;1,8;23;1,500,000;28;5;4;3;0;Túnez;Troyes;Mediocentro ofensivo
+Hamdi Nagguez;1,92;25;1,500,000;28;2;3;3;0;Túnez;Zamalek;Lateral
+Yohan Benalouane;1,85;31;1,000,000;25;1;0;3;0;Túnez;Leicester City;Defensa
+Marouane Fellaini;1,94;30;10,000,000;32;6;4;5;0;Bélgica;Manchester United;Mediocentro
+Michy Batshuayi;1,85;24;25,000,000;30;14;4;3;0;Bélgica;Chelsea / Dortmund;Delantero
+Youri Tielemans;1,76;21;20,000,000;34;6;7;4;0;Bélgica;Mónaco;Mediocentro
+Moon Seon-Min;1,77;26;800;26;6;5;3;0;Corea del Sur;Incheon United;Extremo
+Ju Se-Jong;1,77;27;1,000,000;28;2;3;3;0;Corea del Sur;FC Seoul;Mediocentro
+Jesús Corona;1,73;25;20,000,000;38;6;9;4;0;México;Porto;Extremo
+Giovani dos Santos;1,74;29;3,000,000;28;6;5;3;0;México;LA Galaxy;Extremo
+Hong Chul;1,82;27;1,000,000;28;2;3;3;0;Corea del Sur;Suwon Bluewings;Lateral
+Ricardo Ávila;1,8;21;500;20;1;1;2;0;Panamá;Gent;Mediocentro
+Fabian Delph;1,74;28;15,000,000;34;3;5;4;0;Inglaterra;Manchester City;Mediocentro
+Jamie Vardy;1,79;31;40,000,000;36;23;6;4;0;Inglaterra;Leicester City;Delantero
+Felipe Baloy;1,85;37;300;20;2;0;3;0;Panamá;Municipal;Defensa
+Abdiel Arroyo;1,85;24;500;22;5;2;2;0;Panamá;Alajuelense;Delantero
+Danny Rose;1,73;27;20,000,000;30;2;4;4;0;Inglaterra;Tottenham;Lateral
+Jacek Góralski;1,76;25;2,000,000;28;2;2;3;0;Polonia;Ludogorets;Mediocentro
+Abel Aguilar;1,85;33;1,000,000;28;2;2;3;0;Colombia;Deportivo Cali;Mediocentro
+Yerry Mina;1,95;23;25,000,000;28;6;2;4;0;Colombia;Barcelona;Defensa
+Mateus Uribe;1,82;27;6,000,000;32;8;5;4;0;Colombia;América de México;Mediocentro
+?ukasz Teodorczyk;1,85;27;7,000,000;32;20;4;3;0;Polonia;Anderlecht;Delantero
+Kamil Glik;1,9;30;8,000,000;36;3;1;6;0;Polonia;Mónaco;Defensa
+Papa Alioune N’Diaye;1,85;27;6,000,000;34;5;4;5;0;Senegal;Wolverhampton;Mediocentro
+Khadim N’Diaye;1,85;33;500;25;0;0;1;0;Senegal;Horoya AC;Portero
+Takashi Usami;1,78;26;2,000,000;28;8;5;3;0;Japón;Augsburg;Extremo
+André Silva;1,85;22;30,000,000;40;16;6;4;0;Portugal;AC Milan;Delantero
+Ricardo Quaresma;1,75;34;5,000,000;32;6;7;4;0;Portugal;Besiktas;Extremo
+Aleksey Miranchuk;1,82;22;10,000,000;34;12;8;4;0;Rusia;Lokomotiv Moscú;Mediocentro ofensivo
+Sebastián Coates;1,96;27;10,000,000;34;3;2;5;0;Uruguay;Sporting CP;Defensa
+Igor Smolnikov;1,8;29;4,000,000;32;2;4;4;0;Rusia;Zenit;Lateral
+Giorgian De Arrascaeta;1,72;24;8,000,000;34;12;10;4;0;Uruguay;Cruzeiro;Mediocentro ofensivo
+Maximiliano Gómez;1,86;21;12,000,000;36;17;5;4;0;Uruguay;Celta de Vigo;Delantero
+Essam El-Hadary;1,88;45;200;20;0;0;1;0;Egipto;Al-Taawoun;Portero
+Motaz Hawsawi;1,82;26;1,000,000;28;2;1;3;0;Arabia Saudita;Al Ahli;Defensa
+Yasser Al-Mosailem;1,85;34;500;25;0;0;1;0;Arabia Saudita;Al Ahli;Portero
+Thiago Alcántara;1,74;27;60,000,000;38;4;7;4;0;España;Bayern Múnich;Mediocentro
+Romain Saïss;1,9;28;5,000,000;32;3;3;4;0;Marruecos;Wolverhampton;Defensa
+Youssef En-Nesyri;1,88;21;3,000,000;28;8;3;3;0;Marruecos;Málaga;Delantero
+Iago Aspas;1,76;30;25,000,000;36;22;6;4;0;España;Celta de Vigo;Delantero
+Aziz Bouhaddouz;1,9;31;1,500,000;28;9;4;3;0;Marruecos;St. Pauli;Delantero
+Milan Badelj;1,86;29;10,000,000;34;3;5;4;0;Croacia;Fiorentina;Mediocentro
+Duje ?aleta-Car;1,92;21;6,000,000;32;2;1;4;0;Croacia;Salzburgo;Defensa
+Tin Jedvaj;1,84;22;8,000,000;30;2;2;4;0;Croacia;Bayer Leverkusen;Defensa
+Lovre Kalini?;2,01;28;4,000,000;30;0;0;2;0;Croacia;Gent;Portero
+Josip Pivari?;1,79;28;2,000,000;28;1;3;3;0;Croacia;Dinamo Kiev;Lateral
+Filip Bradari?;1,85;26;3,000,000;30;3;4;3;0;Croacia;Rijeka;Mediocentro
+Albert Gudmundsson;1,77;21;1,500,000;25;8;5;2;0;Islandia;PSV Eindhoven;Extremo
+Arnór Traustason;1,83;25;2,000,000;28;6;5;3;0;Islandia;Malmö FF;Extremo
+Tim Cahill;1,78;38;500;20;6;2;2;0;Australia;Millwall;Delantero
+Paolo Hurtado;1,74;27;2,000,000;28;8;6;3;0;Perú;Vitória Guimarães;Extremo
+Wilder Cartagena;1,77;23;1,000,000;26;2;2;3;0;Perú;Veracruz;Mediocentro
+Djibril Sidibé;1,82;25;20,000,000;36;3;6;4;0;Francia;Mónaco;Lateral
+Presnel Kimpembe;1,83;22;25,000,000;34;2;2;4;0;Francia;PSG;Defensa
+Thomas Lemar;1,7;22;60,000,000;40;10;11;4;0;Francia;Mónaco;Extremo
+Steve Mandanda;1,85;33;3,000,000;30;0;0;2;0;Francia;Marsella;Portero
+Benjamin Mendy;1,85;23;40,000,000;28;2;5;3;0;Francia;Manchester City;Lateral
+Viktor Fischer;1,81;24;3,000,000;28;7;6;3;0;Dinamarca;Copenhague;Extremo
+Kasper Dolberg;1,87;20;25,000,000;32;11;5;3;0;Dinamarca;Ajax;Delantero
+Franco Armani;1,89;31;3,000,000;30;0;0;2;0;Argentina;River Plate;Portero
+Miloš Veljkovi?;1,88;22;4,000,000;30;2;1;4;0;Serbia;Werder Bremen;Defensa
+Filipe Luís;1,82;32;15,000,000;34;2;5;4;0;Brasil;Atlético Madrid;Lateral
+Andrija Živkovi?;1,7;21;7,000,000;32;6;7;3;0;Serbia;Benfica;Extremo
+Luka Jovi?;1,82;20;10,000,000;28;12;4;3;0;Serbia;Eintracht Frankfurt;Delantero
+Marco Fabián;1,71;28;6,000,000;28;7;6;3;0;México;Eintracht Frankfurt;Mediocentro ofensivo
+Oribe Peralta;1,78;34;1,500,000;28;9;5;3;0;México;América;Delantero
+Niklas Süle;1,95;22;35,000,000;36;3;2;5;0;Alemania;Bayern Múnich;Defensa
+Yun Young-Sun;1,85;29;1,000,000;28;2;1;3;0;Corea del Sur;Seongnam FC;Defensa
+Leon Goretzka;1,89;23;40,000,000;36;8;7;4;0;Alemania;Schalke 04;Mediocentro
+Go Yo-Han;1,7;29;800;26;3;3;3;0;Corea del Sur;FC Seoul;Mediocentro
+Kendall Waston;1,96;30;1,500,000;28;4;2;4;0;Costa Rica;Vancouver Whitecaps;Defensa
+Josip Drmi?;1,85;25;6,000,000;28;8;4;3;0;Suiza;Borussia Mönchengladbach;Delantero
+Rodney Wallace;1,8;29;1,000,000;26;3;3;3;0;Costa Rica;New York City FC;Extremo
+Randall Azofeifa;1,78;33;500;25;2;2;2;0;Costa Rica;Herediano;Mediocentro
+Ian Smith;1,75;20;800;22;1;2;2;0;Costa Rica;Norrköping;Lateral
+Oussama Haddadi;1,85;26;1,500,000;28;2;3;3;0;Túnez;Dijon;Lateral
+Adolfo Machado;1,82;33;500;25;1;1;2;0;Panamá;Houston Dynamo;Defensa
+Ghilane Chaalali;1,8;24;1,500,000;28;3;4;3;0;Túnez;Espérance Tunis;Mediocentro
+Luis Ovalle;1,77;29;500;25;1;2;2;0;Panamá;Olimpia;Lateral
+Rami Bedoui;1,85;28;1,000,000;26;2;1;3;0;Túnez;Étoile du Sahel;Defensa
+Aymen Mathlouthi;1,85;34;500;25;0;0;2;0;Túnez;Étoile du Sahel;Portero
+Harold Cummings;1,8;26;1,000,000;26;2;1;3;0;Panamá;San José Earthquakes;Defensa
+Ahmed Khalil;1,8;27;1,500,000;28;10;4;3;0;Emiratos Árabes;Al Jazira;Delantero
+Bassem Srarfi;1,76;20;1,500,000;25;4;3;2;0;Túnez;Niza;Extremo
+Phil Jones;1,85;26;20,000,000;32;2;1;5;0;Inglaterra;Manchester United;Defensa
+Trent Alexander-Arnold;1,8;19;25,000,000;30;3;6;3;0;Inglaterra;Liverpool;Lateral
+Adnan Januzaj;1,86;23;8,000,000;28;5;5;3;0;Bélgica;Real Sociedad;Extremo
+Gary Cahill;1,91;32;10,000,000;30;2;1;4;0;Inglaterra;Chelsea;Defensa
+Thomas Vermaelen;1,83;32;3,000,000;25;1;0;3;0;Bélgica;FC Barcelona;Defensa
+Leander Dendoncker;1,88;23;15,000,000;34;4;4;4;0;Bélgica;Anderlecht;Mediocentro
+Eric Dier;1,88;24;25,000,000;36;3;4;5;0;Inglaterra;Tottenham;Mediocentro
+Vincent Kompany;1,9;32;15,000,000;28;2;1;5;0;Bélgica;Manchester City;Defensa
+Danny Welbeck;1,85;27;15,000,000;32;10;5;3;0;Inglaterra;Arsenal;Delantero
+Lamine Gassama;1,81;28;2,000,000;28;2;3;3;0;Senegal;Alanyaspor;Lateral
+Keita Baldé;1,84;23;25,000,000;34;16;7;4;0;Senegal;Mónaco;Extremo
+Luis Muriel;1,79;27;20,000,000;36;16;6;4;0;Colombia;Sevilla;Delantero
+Diafra Sakho;1,84;28;6,000,000;30;10;4;3;0;Senegal;Rennes;Delantero
+Miguel Borja;1,83;25;7,000,000;34;15;5;4;0;Colombia;Palmeiras;Delantero
+Yoshinori Muto;1,79;25;8,000,000;32;10;5;3;0;Japón;Mainz 05;Delantero
+Rafa? Kurzawa;1,82;25;2,000,000;28;4;6;3;0;Polonia;Górnik Zabrze;Lateral
+?ukasz Fabia?ski;1,9;33;5,000,000;38;0;0;2;0;Polonia;Swansea City;Portero
+Tomoaki Makino;1,82;30;1,500,000;28;2;1;3;0;Japón;Urawa Red Diamonds;Defensa
+Artur J?drzejczyk;1,89;30;1,500,000;28;1;1;4;0;Polonia;Legia Varsovia;Defensa
+Gotoku Sakai;1,76;27;2,000,000;30;2;3;3;0;Japón;Hamburgo;Lateral
+S?awomir Peszko;1,73;33;500;25;3;4;3;0;Polonia;Lechia Gdansk;Extremo
+Nacho Fernández;1,8;28;25,000,000;36;3;2;4;0;España;Real Madrid;Defensa
+Masoud Shojaei;1,85;34;500;25;2;2;3;0;Irán;AEK Atenas;Mediocentro
+Amine Harit;1,8;20;15,000,000;32;5;7;3;0;Marruecos;Schalke 04;Mediocentro ofensivo
+Roozbeh Cheshmi;1,9;24;1,000,000;25;2;1;3;0;Irán;Esteghlal;Defensa
+Sofyan Amrabat;1,85;21;3,000,000;28;4;5;3;0;Marruecos;Feyenoord;Mediocentro
+Sam Morsy;1,75;26;1,500,000;28;2;3;3;0;Egipto;Wigan Athletic;Mediocentro
+Ricardo Pereira;1,75;24;20,000,000;36;5;7;4;0;Portugal;Oporto;Lateral
+Cristhian Stuani;1,86;31;6,000,000;36;21;4;4;0;Uruguay;Girona;Delantero
+Manuel Fernandes;1,81;32;8,000,000;34;7;6;4;0;Portugal;Lokomotiv Moscú;Mediocentro
+Federico Fazio;1,95;31;6,000,000;34;3;1;5;0;Argentina;Roma;Defensa
+Florian Thauvin;1,79;25;40,000,000;45;22;11;4;0;Francia;Marsella;Extremo
+Jonas Knudsen;1,85;25;2,000,000;30;2;3;3;0;Dinamarca;Ipswich Town;Lateral
+Michael Krohn-Dehli;1,71;34;500;25;2;3;2;0;Dinamarca;Deportivo La Coruña;Mediocentro
+Vladimir Granat;1,84;31;1,500,000;28;2;1;3;0;Rusia;Rubin Kazan;Defensa
+Aleksandr Erokhin;1,95;28;3,000,000;32;8;6;4;0;Rusia;Zenit;Mediocentro
+Jonathan dos Santos;1,74;28;6,000,000;34;4;6;4;0;México;LA Galaxy;Mediocentro
+Marquinhos;1,83;24;60,000,000;40;4;3;5;0;Brasil;PSG;Defensa
+Cristian Zapata;1,87;31;2,000,000;30;2;1;4;0;Colombia;AC Milan;Defensa
+Johan Djourou;1,91;31;1,500,000;28;1;0;4;0;Suiza;Antalyaspor;Defensa
+Martin Olsson;1,78;30;2,000,000;30;2;3;3;0;Suecia;Swansea City;Lateral
+Emil Krafth;1,84;23;2,500,000;28;1;2;3;0;Suecia;Bologna;Lateral
+Jonathan Urretaviscaya;1,7;28;2,000,000;28;6;5;3;0;Uruguay;Monterrey;Extremo
