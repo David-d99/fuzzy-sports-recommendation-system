@@ -91,7 +91,7 @@ Este proyecto está bajo la licencia MIT. Consulta el archivo `LICENSE` para má
 ## 📧 Contacto
 
 - **Autor**: Luis David Delgado Solorzano
-- **Correo institucional**: [tu correo]
+- **Correo institucional**: [ldelgado4873@utm.edu.ec]
 - **GitHub**: [David-d99](https://github.com/David-d99)
 
 ---
