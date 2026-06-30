@@ -58,7 +58,7 @@ Sigue estos pasos para ejecutar el sistema en tu entorno local o en la nube:
 
 ## 📊 Datos
 
-- `Datos_futbolistas_con_embeddings.csv`: Contiene información de 604 jugadores de campo (excluyendo porteros) con variables normalizadas al rango [0,100] y etiquetas de clúster.
+- `recolección de datos.csv`: Contiene información de 604 jugadores de campo (excluyendo porteros) con variables normalizadas al rango [0,100] y etiquetas de clúster.
 - `eventos_wc2018_xy_statsbomb.csv`: Registros de eventos de la Copa Mundial de la FIFA 2018 con coordenadas (x,y) y nombre del jugador.
 
 ---
